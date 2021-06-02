@@ -3,6 +3,7 @@ import { jsx } from "@emotion/react"
 import React from "react"
 import { Link } from "gatsby"
 import tw from "twin.macro"
+import resume from "../downloads/resume.pdf"
 
 const styles = {
   logo: tw`text-3xl font-black text-black mr-auto`,
@@ -27,9 +28,9 @@ const Header = () => {
         <Link to="/contact" css={styles.links}>
           contact
         </Link>
-        <Link to="/resume" css={styles.links}>
+        <a href={resume} css={styles.links} download>
           resume
-        </Link>
+        </a>
       </div>
     </div>
   )
