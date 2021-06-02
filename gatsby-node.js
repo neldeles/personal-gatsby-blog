@@ -1,5 +1,6 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require("path")
+const _ = require("lodash")
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -10,7 +11,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: `/posts${value}`,
+      value: `/blog/posts${value}`,
     })
   }
 }
@@ -30,6 +31,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           }
         }
       }
+      tagsGroup: allMdx(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
+        }
+      }
     }
   `)
 
@@ -45,6 +51,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: node.fields.slug,
       component: path.resolve(`./src/components/postPageTemplate.js`),
       context: { id: node.id },
+    })
+  })
+
+  // Create tags pages
+  const tags = result.data.tagsGroup.group
+
+  tags.forEach(tag => {
+    createPage({
+      path: `/tags/${_.kebabCase(tag.fieldValue)}`,
+      component: path.resolve(`./src/components/tagsTemplate.js`),
+      context: {
+        tag: tag.fieldValue,
+      },
     })
   })
 }

@@ -39,5 +39,12 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        excerpt_separator: `<!--more-->`,
+        extensions: [`.md`, `.mdx`],
+      },
+    },
   ],
 }
