@@ -1,0 +1,5 @@
+#!/bin/bash
+cd src && cd posts
+for file in ./*.mdx; do
+  mkdir "${file%.*}" && mv "$file" "${file%.*}"
+done

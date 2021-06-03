@@ -45,7 +45,9 @@ const IndexPage = ({ data }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link css={styles.link}>bio and work history</Link>
+                  <Link to="/about" css={styles.link}>
+                    bio and work history
+                  </Link>
                 </li>
                 <li>
                   <a href={resume} css={styles.link} download>

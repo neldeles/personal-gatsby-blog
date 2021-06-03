@@ -1,9 +1,9 @@
 ---
-title: Second Post!
-date: 2020-09-05
-tags: ["hugo", "blog", "test", "react", "windows", "law", "dog", "iphone"]
-description: Resources on how I setup my own blog with Hugo, Netlify, and Forestry. Log of problems I encountered and solutions I came across.
+date: "2019-05-25T16:00:00+00:00"
+tags: ["hugo"]
+title: "Setting up a Hugo blog"
 published: true
+description: Resources on how I setup my own blog with Hugo, Netlify, and Forestry. Log of problems I encountered and solutions I came across.
 ---
 
 ## Overview

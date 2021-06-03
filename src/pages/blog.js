@@ -63,12 +63,21 @@ const BlogPage = ({ data }) => {
                         frontmatter.tags.map((tag, i, arr) => {
                           if (i === 0) {
                             // first element in array
-                            return (
-                              <React.Fragment key={tag.concat(id)}>
-                                <span> — </span>
-                                <Tags tag={tag} content=",&nbsp;" />
-                              </React.Fragment>
-                            )
+                            if (arr.length === 1) {
+                              return (
+                                <React.Fragment key={tag.concat(id)}>
+                                  <span> — </span>
+                                  <Tags tag={tag} content="&nbsp;" />
+                                </React.Fragment>
+                              )
+                            } else {
+                              return (
+                                <React.Fragment key={tag.concat(id)}>
+                                  <span> — </span>
+                                  <Tags tag={tag} content=",&nbsp;" />
+                                </React.Fragment>
+                              )
+                            }
                           }
                           if (arr.length - 1 === i) {
                             // last element in array

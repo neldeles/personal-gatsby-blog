@@ -54,6 +54,7 @@ const postPageTemplate = ({ data }) => {
                 {frontmatter.description}
               </p>
             )}
+            <hr tw="mt-6" />
           </div>
           <div tw="mt-6 prose prose-pink prose-lg text-gray-500 mx-auto">
             <MDXRenderer>{body}</MDXRenderer>
