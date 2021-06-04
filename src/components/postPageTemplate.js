@@ -22,7 +22,7 @@ export const query = graphql`
   }
 `
 
-const postPageTemplate = ({ data }) => {
+const PostPageTemplate = ({ data }) => {
   const { frontmatter, body } = data.mdx
   return (
     <Layout>
@@ -65,4 +65,4 @@ const postPageTemplate = ({ data }) => {
   )
 }
 
-export default postPageTemplate
+export default PostPageTemplate

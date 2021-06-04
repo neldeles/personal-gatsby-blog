@@ -10,7 +10,7 @@ import { ProseContainer, H1, ListLink } from "../components/styles"
 import Tags from "../components/tags"
 
 export const query = graphql`
-  query HomePageQuery($skip: Int!, $limit: Int!) {
+  query HomePageQuery($skip: Int, $limit: Int) {
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
