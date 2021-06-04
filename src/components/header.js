@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx } from "@emotion/react"
 import React from "react"
 import { Link } from "gatsby"
@@ -17,7 +16,8 @@ const Header = () => {
     <div css={styles.headerContainer}>
       <div css={styles.header}>
         <Link to="/" aria-label="home" css={styles.logo}>
-          neldeles
+          <span tw="hidden md:flex">neldeles</span>
+          <span tw="md:hidden">nd</span>
         </Link>
         <Link to="/blog" css={styles.links}>
           blog

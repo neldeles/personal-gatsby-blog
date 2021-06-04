@@ -6,18 +6,15 @@ import tw from "twin.macro"
 // Components
 import Layout from "../components/layout"
 import ContentContainer from "../components/contentContainer"
+import { ProseContainer, H1, ListLink } from "../components/styles"
 import Tags from "../components/tags"
 
 export const query = graphql`
-  query HomePageQuery {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
+  query HomePageQuery($skip: Int!, $limit: Int!) {
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
       filter: { frontmatter: { published: { eq: true } } }
     ) {
       nodes {
@@ -41,75 +38,93 @@ const styles = {
   tags: tw`font-normal hover:(bg-pink-600 text-white cursor-pointer)`,
 }
 
-const BlogPage = ({ data }) => {
+const BlogPage = ({ data, pageContext }) => {
+  const { currentPage, numPages } = pageContext
+  const isFirst = currentPage === 1
+  const isLast = currentPage === numPages
+  const prevPage =
+    currentPage - 1 === 1 ? "/blog" : "/blog/" + (currentPage - 1).toString()
+  const nextPage = "/blog/" + (currentPage + 1).toString()
   return (
     <Layout>
-      {
-        <ContentContainer>
-          {
-            <div>
-              {data.allMdx.nodes.map(({ excerpt, frontmatter, fields, id }) => {
-                return (
-                  <div tw="max-w-prose mx-auto" key={id}>
-                    <Link to={fields.slug}>
-                      <h1 tw="mt-2 mb-1.5 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        {frontmatter.title}
-                      </h1>
-                    </Link>
-                    <p tw="block text-base text-gray-900 font-normal tracking-wide">
-                      {frontmatter.date}
-                      {frontmatter.tags != null &&
-                        frontmatter.tags.length > 0 &&
-                        frontmatter.tags.map((tag, i, arr) => {
-                          if (i === 0) {
-                            // first element in array
-                            if (arr.length === 1) {
-                              return (
-                                <React.Fragment key={tag.concat(id)}>
-                                  <span> — </span>
-                                  <Tags tag={tag} content="&nbsp;" />
-                                </React.Fragment>
-                              )
-                            } else {
-                              return (
-                                <React.Fragment key={tag.concat(id)}>
-                                  <span> — </span>
-                                  <Tags tag={tag} content=",&nbsp;" />
-                                </React.Fragment>
-                              )
-                            }
-                          }
-                          if (arr.length - 1 === i) {
-                            // last element in array
-                            return (
-                              <Tags
-                                key={tag.concat(id)}
-                                tag={tag}
-                                content="&nbsp;"
-                              />
-                            )
-                          } else {
-                            return (
-                              <Tags
-                                key={tag.concat(id)}
-                                tag={tag}
-                                content=",&nbsp;"
-                              />
-                            )
-                          }
-                        })}
-                    </p>
+      <ContentContainer>
+        <ProseContainer>
+          {data.allMdx.nodes.map(({ excerpt, frontmatter, fields, id }) => {
+            return (
+              <React.Fragment key={id}>
+                <Link to={fields.slug}>
+                  <H1>{frontmatter.title}</H1>
+                </Link>
+                <p tw="block text-base text-gray-900 font-normal tracking-wide">
+                  {frontmatter.date}
+                  {frontmatter.tags != null &&
+                    frontmatter.tags.length > 0 &&
+                    frontmatter.tags.map((tag, i, arr) => {
+                      if (i === 0) {
+                        // first element in array
+                        if (arr.length === 1) {
+                          return (
+                            <React.Fragment key={tag.concat(id)}>
+                              <span> — </span>
+                              <Tags tag={tag} content="&nbsp;" />
+                            </React.Fragment>
+                          )
+                        } else {
+                          return (
+                            <React.Fragment key={tag.concat(id)}>
+                              <span> — </span>
+                              <Tags tag={tag} content=",&nbsp;" />
+                            </React.Fragment>
+                          )
+                        }
+                      }
+                      if (arr.length - 1 === i) {
+                        // last element in array
+                        return (
+                          <Tags
+                            key={tag.concat(id)}
+                            tag={tag}
+                            content="&nbsp;"
+                          />
+                        )
+                      } else {
+                        return (
+                          <Tags
+                            key={tag.concat(id)}
+                            tag={tag}
+                            content=",&nbsp;"
+                          />
+                        )
+                      }
+                    })}
+                </p>
 
-                    <p tw="mt-4 mb-10 prose prose-indigo text-gray-500 mx-auto">
-                      {frontmatter.description || excerpt}
-                    </p>
-                  </div>
-                )
-              })}
-            </div>
-          }
-        </ContentContainer>
-      }
+                <p tw="mt-4 mb-10 prose prose-indigo text-gray-500 mx-auto">
+                  {frontmatter.description || excerpt}
+                </p>
+              </React.Fragment>
+            )
+          })}
+          <div tw="flex">
+            {!isFirst && (
+              <Link
+                to={prevPage}
+                rel="prev"
+                tw="text-lg mr-auto text-pink-600 underline font-medium hover:(cursor-pointer)"
+              >
+                ← Previous Page
+              </Link>
+            )}
+            {!isLast && (
+              <ListLink
+                destination={nextPage}
+                content="Next Page →"
+                rel="next"
+              />
+            )}
+          </div>
+        </ProseContainer>
+      </ContentContainer>
     </Layout>
   )
 }

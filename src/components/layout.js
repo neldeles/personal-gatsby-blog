@@ -1,15 +1,18 @@
+import { jsx } from "@emotion/react"
 import React from "react"
-import { GlobalStyles } from "twin.macro"
+import tw, { GlobalStyles } from "twin.macro"
 import Header from "./header"
+import Footer from "./footer"
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
 deckDeckGoHighlightElement()
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div tw="flex flex-col h-screen">
       <GlobalStyles />
       <Header />
-      {children}
+      <main tw="flex-grow">{children}</main>
+      <Footer />
     </div>
   )
 }

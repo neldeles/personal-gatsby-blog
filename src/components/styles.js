@@ -13,7 +13,7 @@ export const H1 = tw.h1`
   mt-2 mb-1.5 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl
 `
 
-export const ListLink = ({ content, destination }) => (
+export const ListLink = ({ content, destination, ...rest }) => (
   <Link to={destination} css={styles.listLink}>
     {content}
   </Link>
