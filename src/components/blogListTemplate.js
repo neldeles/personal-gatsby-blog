@@ -4,10 +4,10 @@ import { graphql, Link } from "gatsby"
 import tw from "twin.macro"
 
 // Components
-import Layout from "../components/layout"
-import ContentContainer from "../components/contentContainer"
-import { ProseContainer, H1, ListLink } from "../components/styles"
-import Tags from "../components/tags"
+import Layout from "./layout"
+import ContentContainer from "./contentContainer"
+import { ProseContainer, H1, ListLink } from "./styles"
+import Tags from "./tags"
 
 export const query = graphql`
   query HomePageQuery($skip: Int!, $limit: Int!) {
