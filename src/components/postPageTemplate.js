@@ -1,4 +1,3 @@
-import { jsx } from "@emotion/react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import React from "react"

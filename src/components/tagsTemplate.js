@@ -1,4 +1,3 @@
-import { jsx } from "@emotion/react"
 import React from "react"
 import PropTypes from "prop-types"
 import tw from "twin.macro"
