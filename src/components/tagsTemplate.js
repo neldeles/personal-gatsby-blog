@@ -25,12 +25,12 @@ const Tags = ({ pageContext, data }) => {
               All tags &#8594;
             </span>
           </Link>
-          <ul>
+          <ul tw="list-disc ml-6 text-left ">
             {edges.map(({ node }) => {
               const { slug } = node.fields
               const { title } = node.frontmatter
               return (
-                <li tw="list-disc mt-6" key={slug}>
+                <li tw="mt-6" key={slug}>
                   <ListLink destination={slug} content={title} />
                 </li>
               )

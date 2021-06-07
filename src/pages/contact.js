@@ -13,11 +13,11 @@ const Contact = () => {
       <ContentContainer>
         <ProseContainer>
           <H1>Contact</H1>
-          <ul>
-            <li tw="list-disc mt-6">
+          <ul tw="list-disc ml-6 text-left ">
+            <li tw="mt-6">
               <ListA href="mailto:neldeles@gmail.com">email</ListA>
             </li>
-            <li tw="list-disc mt-3">
+            <li tw="mt-3">
               <ListA href="https://twitter.com/neldeles">twitter</ListA>
             </li>
           </ul>
