@@ -58,7 +58,7 @@ const PostPageTemplate = ({ data }) => {
             )}
             <hr tw="mt-6" />
           </div>
-          <div tw="mt-6 prose prose-pink prose-lg text-gray-500 mx-auto">
+          <div tw="mt-6 prose prose-pink prose-lg text-gray-500 break-words mx-auto">
             <MDXRenderer>{body}</MDXRenderer>
           </div>
         </div>
