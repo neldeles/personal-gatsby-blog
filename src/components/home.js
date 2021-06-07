@@ -2,15 +2,12 @@ import * as React from "react"
 import tw from "twin.macro"
 import TextLoop from "react-text-loop"
 import { Link } from "gatsby"
-import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
 
 import Layout from "./layout"
 import ContentContainer from "./contentContainer"
 import { ProseContainer, H1 } from "../components/styles"
 import "../index.css"
 import resume from "../downloads/resume.pdf"
-
-deckDeckGoHighlightElement()
 
 const styles = {
   highlight: tw`bg-pink-600 text-white font-medium`,

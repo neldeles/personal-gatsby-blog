@@ -43,6 +43,10 @@ module.exports = {
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: `carbon`,
+              lineNumbers: true,
+            },
           },
           {
             resolve: `gatsby-remark-images`,

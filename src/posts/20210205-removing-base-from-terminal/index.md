@@ -28,4 +28,4 @@ conda config --set changeps1 True
 
 > Setting `changeps1` to `False` will hide `(env)` even if the `env` is activated and will keep hiding `(base)` even after `auto_activate_base` is set to `True`.
 
-Source: [https://stackoverflow.com/questions/55171696/how-to-remove-base-from-terminal-prompt-after-updating-conda](https://stackoverflow.com/questions/55171696/how-to-remove-base-from-terminal-prompt-after-updating-conda "https://stackoverflow.com/questions/55171696/how-to-remove-base-from-terminal-prompt-after-updating-conda")
+Source: [1](https://stackoverflow.com/questions/55171696/how-to-remove-base-from-terminal-prompt-after-updating-conda "https://stackoverflow.com/questions/55171696/how-to-remove-base-from-terminal-prompt-after-updating-conda")

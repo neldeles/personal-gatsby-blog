@@ -8,9 +8,9 @@ aliases:
 references:
 ---
 
-Graphql has no way to handle case insensitivity at the moment. So case insensitivity for my tags frontmatter became an issue. This [Github thread] (https://github.com/gatsbyjs/gatsby/issues/1789) elaborates on the issue.
+Graphql has no way to handle case insensitivity at the moment. So case insensitivity for my tags frontmatter became an issue. This [Github thread](https://github.com/gatsbyjs/gatsby/issues/1789) elaborates on the issue.
 
-One of the suggested solutions there is to use the Gatsby plugin [gatsby-plugin-node-fields] (https://github.com/Undistraction/gatsby-plugin-node-fields). This is a guide for that solution.
+One of the suggested solutions there is to use the Gatsby plugin [gatsby-plugin-node-fields](https://github.com/Undistraction/gatsby-plugin-node-fields). This is a guide for that solution.
 
 ## 1. Install the plugin
 

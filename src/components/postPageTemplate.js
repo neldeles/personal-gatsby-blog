@@ -3,9 +3,12 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import React from "react"
 import Layout from "./layout"
 import tw from "twin.macro"
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
 
 // Components
 import Tags from "./tags"
+
+deckDeckGoHighlightElement()
 
 export const query = graphql`
   query PostsByID($id: String!) {
