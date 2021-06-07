@@ -15,31 +15,32 @@ import { H1, ProseContainer } from "../components/styles"
 const TagsPage = ({
   data: {
     allMdx: { group },
-    site: {
-      siteMetadata: { title },
-    },
   },
-}) => (
-  <Layout>
-    <ContentContainer>
-      <ProseContainer>
-        <H1>Tags</H1>
-        <ul tw="flex flex-wrap justify-around">
-          {group.map(tag => (
-            <li key={tag.fieldValue} tw="mt-6 flex-grow flex-basis[25%]">
-              <Link
-                to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                tw="underline font-medium hover:(bg-pink-600 text-white cursor-pointer)"
-              >
-                {tag.fieldValue} ({tag.totalCount})
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </ProseContainer>
-    </ContentContainer>
-  </Layout>
-)
+}) => {
+  const allTags = group
+
+  return (
+    <Layout>
+      <ContentContainer>
+        <ProseContainer>
+          <H1>Tags</H1>
+          <ul tw="flex flex-wrap justify-around">
+            {allTags.map(tag => (
+              <li key={tag.fieldValue} tw="mt-6 flex-grow flex-basis[25%]">
+                <Link
+                  to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                  tw="underline font-medium hover:(bg-pink-600 text-white cursor-pointer)"
+                >
+                  {tag.fieldValue} ({tag.totalCount})
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </ProseContainer>
+      </ContentContainer>
+    </Layout>
+  )
+}
 
 TagsPage.propTypes = {
   data: PropTypes.shape({
@@ -69,7 +70,7 @@ export const pageQuery = graphql`
       }
     }
     allMdx(limit: 2000) {
-      group(field: frontmatter___tags) {
+      group(field: fields___tagsFormatted) {
         fieldValue
         totalCount
       }

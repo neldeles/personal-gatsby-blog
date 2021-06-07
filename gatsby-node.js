@@ -2,6 +2,36 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require("path")
 const _ = require("lodash")
 
+const { attachFields } = require(`gatsby-plugin-node-fields`)
+
+// lower case array
+const tagsToLowerCase = tagsArr => {
+  const output = tagsArr.map(tag => tag.toLowerCase())
+  return output
+}
+
+const isEmptyString = value => {
+  if (value === "") {
+    return true
+  }
+  return false
+}
+
+const descriptors = [
+  {
+    predicate: node => node.internal.type === "Mdx",
+    fields: [
+      {
+        name: "tagsFormatted",
+        getter: node => node.frontmatter.tags,
+        defaultValue: "",
+        transformer: value =>
+          isEmptyString(value) ? [] : tagsToLowerCase(value),
+      },
+    ],
+  },
+]
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
@@ -14,6 +44,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value: `/blog/posts${value}`,
     })
   }
+  // plugin-node-fields
+  attachFields(node, actions, getNode, descriptors)
 }
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -32,7 +64,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
       tagsGroup: allMdx(limit: 2000) {
-        group(field: frontmatter___tags) {
+        group(field: fields___tagsFormatted) {
           fieldValue
         }
       }
