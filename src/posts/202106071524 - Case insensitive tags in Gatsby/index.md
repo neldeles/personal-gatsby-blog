@@ -1,5 +1,5 @@
 ---
-date: 202106071524
+date: "2021-06-07T15:24:00"
 tags: ["gatsby", "graphql"]
 title: Case insensitive tags in Gatsby
 published: true
@@ -7,8 +7,6 @@ description: "How to create case insensitive tags in Gatsby."
 aliases:
 references:
 ---
-
-# Case insensitive tags in Gatsby
 
 Graphql has no way to handle case insensitivity at the moment. So case insensitivity for my tags frontmatter became an issue. This [Github thread] (https://github.com/gatsbyjs/gatsby/issues/1789) elaborates on the issue.
 
@@ -122,7 +120,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 Once it's setup, a new `tagsFormatted` node will appear under `fields`. You can then just query for it. This is how it looks like in my project:
 
-```js{18}
+```js{18-22}
 // gatsby-node.js
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -168,3 +166,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 ```
 
 `fields___tagsFormatted` values will all be lowercase.
+
+# Footer
+
+---
