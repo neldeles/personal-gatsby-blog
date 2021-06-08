@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `neldeles's personal blog/portfolio`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Personal blog and portfolio of Noel Deles.`,
     author: `neldeles`,
   },
   plugins: [

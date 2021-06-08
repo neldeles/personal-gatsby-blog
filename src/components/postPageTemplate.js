@@ -3,6 +3,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import React from "react"
 import Layout from "./layout"
 import tw from "twin.macro"
+import SEO from "./seo"
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
 
 // Components
@@ -28,6 +29,7 @@ const PostPageTemplate = ({ data }) => {
   const { frontmatter, body } = data.mdx
   return (
     <Layout>
+      <SEO title={frontmatter.title} description={frontmatter.description} />
       <div tw="relative py-16 bg-white">
         <div tw="relative px-4 sm:px-6 lg:px-8">
           <div tw="text-lg max-w-prose mx-auto">
