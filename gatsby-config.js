@@ -12,7 +12,16 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,
-        path: `${__dirname}/src/posts`,
+        path: `${__dirname}/src/posts/Obsidian/2 - Blog Posts`,
+        ignore: [
+          `**/posts/Obsidian/.obsidian`,
+          `**/posts/Obsidian/.trash`,
+          `**/posts/Obsidian/0 - Source Notes`,
+          `**/posts/Obsidian/Permanent Notes`,
+          `**/posts/Obsidian/LYT Index`,
+          `**/posts/Obsidian/Templates`,
+          `**/posts/Obsidian/.obsidian.vimrc`,
+        ],
       },
     },
     `gatsby-plugin-sharp`,

@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "4e54befc4a865283",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dcaae43bd1ee5d4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2 - Blog Posts/202106181719 - Multiple Dispatch.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b64497c0fbd42b03",
+    "type": "split",
+    "children": [
+      {
+        "id": "83db05c7f3bcd69c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55ca4ba4881a452b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b43f98d97a918ff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "gatsby develop",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267
+  },
+  "right": {
+    "id": "2b1526ef9028c607",
+    "type": "split",
+    "children": [
+      {
+        "id": "28d4f7de33f881e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e23c74bc12c2892",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2 - Blog Posts/202106181719 - Multiple Dispatch.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "8593d0ecbfcdebc0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2 - Blog Posts/202106181719 - Multiple Dispatch.md"
+              }
+            }
+          },
+          {
+            "id": "22f8884895a9f54a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 378.2919616699219
+  },
+  "active": "1dcaae43bd1ee5d4",
+  "lastOpenFiles": [
+    "0 - Source Notes/202106181719.md",
+    "0 - Source Notes/202106181626.md",
+    "0 - Source Notes/202106181311.md",
+    "2 - Blog Posts/Untitled.md",
+    "2 - Blog Posts/202106071524 - Case insensitive tags in Gatsby.md",
+    "0 - Source Notes/202105301336 - Starting Gtasby Dev Server.md",
+    "1 - Permanent Notes/Quick Start - Cloning a React Project.md",
+    "0 - Source Notes/202012041823 - Use export to Share a Code Block.md",
+    "0 - Source Notes/202012041725 - Create a Module Script.md",
+    "1 - Permanent Notes/VSCode Setup.md"
+  ]
+}

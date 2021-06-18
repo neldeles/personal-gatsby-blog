@@ -1,0 +1,6 @@
+.markdown-preview-view code {
+  color: var(--text-normal);
+  font-size: 0.9em;
+  margin: -2px 0;
+  background-color: var(--shade-20);
+}
