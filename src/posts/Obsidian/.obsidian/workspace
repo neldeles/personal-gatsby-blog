@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202106181719 - Multiple Dispatch.md",
+            "file": "2 - Blog Posts/202106210019 - there are no focusable elements inside the Focus Trap error.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gatsby develop",
+                "query": "useref",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202106181719 - Multiple Dispatch.md",
+                "file": "2 - Blog Posts/202106210019 - there are no focusable elements inside the Focus Trap error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202106181719 - Multiple Dispatch.md"
+                "file": "2 - Blog Posts/202106210019 - there are no focusable elements inside the Focus Trap error.md"
               }
             }
           },
@@ -109,15 +109,15 @@
   },
   "active": "1dcaae43bd1ee5d4",
   "lastOpenFiles": [
-    "2 - Blog Posts/202106181719 - Multiple Dispatch.md",
-    "0 - Source Notes/202106181719.md",
-    "0 - Source Notes/202106181626.md",
-    "0 - Source Notes/202106181311.md",
-    "2 - Blog Posts/Untitled.md",
-    "2 - Blog Posts/202106071524 - Case insensitive tags in Gatsby.md",
-    "0 - Source Notes/202105301336 - Starting Gtasby Dev Server.md",
-    "1 - Permanent Notes/Quick Start - Cloning a React Project.md",
-    "0 - Source Notes/202012041823 - Use export to Share a Code Block.md",
-    "0 - Source Notes/202012041725 - Create a Module Script.md"
+    "0 - Source Notes/202106210019.md",
+    "0 - Source Notes/202102261018 - References to components with ref.md",
+    "0 - Source Notes/202103092007 - reducer (redux).md",
+    "1 - Permanent Notes/Flexbox Crash Course.md",
+    "LYT Index/MOCs/JavaScript Functional Programming MOC.md",
+    "0 - Source Notes/202101011807 - Sort an Array Alphabetically using the sort Method.md",
+    "1 - Permanent Notes/Redux.md",
+    "0 - Source Notes/202011221655 - Switch Statements.md",
+    "1 - Permanent Notes/Communicating with server in a redux application.md",
+    "0 - Source Notes/202103111509 - Uncontrolled Forms.md"
   ]
 }

@@ -1,8 +1,7 @@
 ---
 aliases:
 tags: ['css', 'flexbox']
-references:
-- 'https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/'
+references: ['https://www.freecodecamp.org/news/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af/']
 ---
 
 # Flexbox Crash Course 
