@@ -14,6 +14,7 @@ references:
 - `q` after executing a query to exit results view
 - `d+ [name_of_table]` to view constraints of table
 - `\x` before writing `select * from users` for a prettier formatted query results
+- `\d+ table_name` to view column names and data types
 
 # Footer
 ---

@@ -34,6 +34,7 @@ These are some of the use cases I've encountered so far:
 - [[202103230332 - Wrap tags around block]]
 - [[202103230338 - Indent multiple lines quickly]]
 - [[202103231709 - Select function definition]]
+- [[202106231927 - uppercase a word]]
 
 
 # Footer

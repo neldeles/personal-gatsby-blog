@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202106210019 - there are no focusable elements inside the Focus Trap error.md",
+            "file": "2 - Blog Posts/202106241440 - Convert ternary operator in TailwindCSS for Twin.macro.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "useref",
+                "query": "vim",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202106210019 - there are no focusable elements inside the Focus Trap error.md",
+                "file": "2 - Blog Posts/202106241440 - Convert ternary operator in TailwindCSS for Twin.macro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202106210019 - there are no focusable elements inside the Focus Trap error.md"
+                "file": "2 - Blog Posts/202106241440 - Convert ternary operator in TailwindCSS for Twin.macro.md"
               }
             }
           },
@@ -109,15 +109,15 @@
   },
   "active": "1dcaae43bd1ee5d4",
   "lastOpenFiles": [
-    "0 - Source Notes/202106210019.md",
-    "0 - Source Notes/202102261018 - References to components with ref.md",
-    "0 - Source Notes/202103092007 - reducer (redux).md",
-    "1 - Permanent Notes/Flexbox Crash Course.md",
-    "LYT Index/MOCs/JavaScript Functional Programming MOC.md",
-    "0 - Source Notes/202101011807 - Sort an Array Alphabetically using the sort Method.md",
-    "1 - Permanent Notes/Redux.md",
-    "0 - Source Notes/202011221655 - Switch Statements.md",
-    "1 - Permanent Notes/Communicating with server in a redux application.md",
-    "0 - Source Notes/202103111509 - Uncontrolled Forms.md"
+    "2 - Blog Posts/202106241440 - Convert ternary operator in TailwindCSS for Twin.macro.md",
+    "0 - Source Notes/202106241451.md",
+    "2 - Blog Posts/Untitled.md",
+    "0 - Source Notes/202106231927 - uppercase a word.md",
+    "1 - Permanent Notes/Vim.md",
+    "LYT Index/010 - Programming.md",
+    "1 - Permanent Notes/Quick Overview - Git Feature Branches.md",
+    "1 - Permanent Notes/VSCode Vim Bindings.md",
+    "1 - Permanent Notes/VSCode Setup.md",
+    "0 - Source Notes/202106231625.md"
   ]
 }
