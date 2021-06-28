@@ -8,7 +8,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-remark-images`,
-    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -74,6 +73,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {

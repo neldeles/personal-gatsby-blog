@@ -12,7 +12,7 @@ Finally got it working for the Listbox. Was trying to use one of TailwindUI's Dr
 
 The relevant TailwindUI code that was giving me issues:
 
-```js{15-20}
+```js{16-21}
 // Original TailwindUI Code
 <Transition
   show={open}
@@ -120,7 +120,7 @@ import { ClassNames } from "@emotion/react"
 </ClassNames>
 ```
 
-Import of `ClassNames` is to [get animations working](https://neldeles.com/blog/posts/202106281736-enabling-animations-of-tailwindui-in-twin).
+Import of `ClassNames` is to [get animations working](202106281736-enabling-animations-of-tailwindui-in-twin).
 
 To get the `active` styles working, what I did was to change the `Fragment` to a `div` and move the relevant css to that `div`, instead of writing it inside `<Listbox.Option>`.
 
@@ -177,5 +177,3 @@ _Caveat_: So far it's working, but I do not actually know if implementing it thi
 ---
 
 Related:
-
-- [[202106281736 - Enabling animations of TailwindUI in Twin]]

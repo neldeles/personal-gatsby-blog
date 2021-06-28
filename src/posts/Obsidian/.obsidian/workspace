@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1dcaae43bd1ee5d4",
+        "id": "e849fe99962c7bc5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202106282334 - HeadlessUI render props in Twin.md",
+            "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "highlight",
+                "query": "focus trap",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202106282334 - HeadlessUI render props in Twin.md",
+                "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202106282334 - HeadlessUI render props in Twin.md"
+                "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md"
               }
             }
           },
@@ -100,24 +100,23 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 378.2919616699219
   },
-  "active": "1dcaae43bd1ee5d4",
+  "active": "e849fe99962c7bc5",
   "lastOpenFiles": [
+    "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
+    "2 - Blog Posts/202106282334-headlessui-render-props-in-twin.md",
+    "0 - Source Notes/202106290520.md",
+    "Templates/note template.md",
+    "Templates/YAML template.md",
+    "2 - Blog Posts/202106210019-no-focusable-elements-inside-the-focus-trap-error.md",
     "2 - Blog Posts/202106282334 - HeadlessUI render props in Twin.md",
-    "2 - Blog Posts/202106181719 - Multiple Dispatch.md",
-    "2 - Blog Posts/202106210019 - there are no focusable elements inside the Focus Trap error.md",
-    "2 - Blog Posts/202106241440 - Convert ternary operator in TailwindCSS for Twin.macro.md",
     "2 - Blog Posts/202106281736 - Enabling animations of TailwindUI in Twin.md",
-    "0 - Source Notes/202106282334 - HeadlessUI render props in Twin.md",
-    "0 - Source Notes/202106031455 - Code syntax line highlighting in Gatsby.md",
-    "0 - Source Notes/202106282334.md",
-    "0 - Source Notes/202106281736.md",
-    "0 - Source Notes/202106241451 - group className in Twin.md"
+    "2 - Blog Posts/202106290429-TESTING-THE-LINKS.md",
+    "0 - Source Notes/202106281736-enabling-animations-of-tailwindui-in-twin.md"
   ]
 }
