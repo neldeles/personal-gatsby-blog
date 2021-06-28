@@ -120,7 +120,7 @@ import { ClassNames } from "@emotion/react"
 </ClassNames>
 ```
 
-Import of `ClassNames` is to [get animations working](neldeles.com/blog/posts/202106281736-enabling-animations-of-tailwindui-in-twin).
+Import of `ClassNames` is to [get animations working](https://neldeles.com/blog/posts/202106281736-enabling-animations-of-tailwindui-in-twin).
 
 To get the `active` styles working, what I did was to change the `Fragment` to a `div` and move the relevant css to that `div`, instead of writing it inside `<Listbox.Option>`.
 
