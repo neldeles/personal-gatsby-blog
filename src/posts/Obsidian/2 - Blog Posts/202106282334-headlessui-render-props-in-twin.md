@@ -62,12 +62,12 @@ The relevant TailwindUI code that was giving me issues:
 
 This is how my final working code looks like:
 
-```js
+```diff
 import { ClassNames } from "@emotion/react"
 
 // ...more code
-;<ClassNames>
-  {({ css }) => (
++ <ClassNames>
++  {({ css }) => (
     <Transition
       show={open}
       as={Fragment}
@@ -80,15 +80,25 @@ import { ClassNames } from "@emotion/react"
         tw="absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm"
       >
         {people.map(person => (
-          <Listbox.Option key={person.id} value={person}>
+          <Listbox.Option
+            key={person.id}
+-            className={({ active }) =>
+-              classNames(
+-              active ? 'text-white bg-indigo-600' : 'text-gray-900',
+-              'cursor-default select-none relative py-2 pl-3 pr-9'
+-              )
+-            }
+            value={person}
+          >
             {({ selected, active }) => (
-              <div
-                css={[
-                  tw`cursor-default select-none relative py-2 pl-3 pr-9`,
-                  active && tw`text-white bg-indigo-600`,
-                  !active && tw`text-gray-900`,
-                ]}
-              >
+-              <>
++              <div
++                css={[
++                  tw`cursor-default select-none relative py-2 pl-3 pr-9`,
++                  active && tw`text-white bg-indigo-600`,
++                  !active && tw`text-gray-900`,
++                ]}
++              >
                 <span
                   css={[
                     tw`block truncate`,
@@ -110,14 +120,15 @@ import { ClassNames } from "@emotion/react"
                     <CheckIcon tw="h-5 w-5" aria-hidden="true" />
                   </span>
                 ) : null}
-              </div>
+-              </>
++              </div>
             )}
           </Listbox.Option>
         ))}
       </Listbox.Options>
     </Transition>
   )}
-</ClassNames>
++ </ClassNames>
 ```
 
 Import of `ClassNames` is to [get animations working](202106281736-enabling-animations-of-tailwindui-in-twin).
