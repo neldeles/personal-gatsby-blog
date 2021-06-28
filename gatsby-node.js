@@ -1,6 +1,7 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require("path")
 const _ = require("lodash")
+const slugify = require("slugify")
 
 const { attachFields } = require(`gatsby-plugin-node-fields`)
 
@@ -41,7 +42,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: `/blog/posts${value}`,
+      value: `/blog/posts/${slugify(value, { lower: true })}`,
     })
   }
   // plugin-node-fields

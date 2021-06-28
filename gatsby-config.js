@@ -63,6 +63,13 @@ module.exports = {
               maxWidth: 1200,
             },
           },
+          {
+            resolve: `gatsby-remark-double-brackets-link`,
+            options: {
+              titleToURLPath: `${__dirname}/resolve-url.js`,
+              stripBrackets: true,
+            },
+          },
         ],
       },
     },

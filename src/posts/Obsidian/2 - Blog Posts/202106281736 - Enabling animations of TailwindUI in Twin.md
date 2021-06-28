@@ -8,7 +8,6 @@ aliases:
 references: ['https://github.com/ben-rogerson/twin.macro/issues/349']
 ---
 
-# Enabling animations of TailwindUI in Twin 
 The problem stems from the fact that [the classes aren't pulled in by twin since they are not applied using `tw`.](https://github.com/ben-rogerson/twin.macro/discussions/394#discussion-3324703).
 
 Here's the [solution](https://github.com/ben-rogerson/twin.macro/issues/349#issuecomment-790856038) as suggested by Ben Rogerson (creator of the Twin library) himself:

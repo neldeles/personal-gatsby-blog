@@ -8,7 +8,6 @@ aliases:
 references:
 ---
 
-# there are no focusable elements inside the \<FocusTrap \/\>
 This error was being thrown when I tried to use the *Simpler Alert Modal* of TailwindUI. 
 
 After googling, the ff resources helped me fix the error:

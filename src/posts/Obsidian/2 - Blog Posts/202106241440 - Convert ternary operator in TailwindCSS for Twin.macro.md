@@ -8,8 +8,6 @@ aliases:
 references:
 ---
 
-# Convert ternary operator in TailwindCSS for Twin.macro
-
 In TailwindUI, this is often used in the components: 
 
 ```js

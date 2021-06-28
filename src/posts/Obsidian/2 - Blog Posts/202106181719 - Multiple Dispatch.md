@@ -8,7 +8,6 @@ aliases:
 references:
 ---
 
-# Chaining multiple dispatches
 
 ```js
 useEffect(() => {
