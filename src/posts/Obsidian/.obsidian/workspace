@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202106281736 - Enabling animations of TailwindUI in Twin.md",
-            "mode": "preview"
+            "file": "2 - Blog Posts/202106282334 - HeadlessUI render props in Twin.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#twin",
+                "query": "highlight",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202106281736 - Enabling animations of TailwindUI in Twin.md",
+                "file": "2 - Blog Posts/202106282334 - HeadlessUI render props in Twin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202106281736 - Enabling animations of TailwindUI in Twin.md"
+                "file": "2 - Blog Posts/202106282334 - HeadlessUI render props in Twin.md"
               }
             }
           },
@@ -109,15 +109,15 @@
   },
   "active": "1dcaae43bd1ee5d4",
   "lastOpenFiles": [
+    "0 - Source Notes/202106282334 - HeadlessUI render props in Twin.md",
+    "2 - Blog Posts/202106281736 - Enabling animations of TailwindUI in Twin.md",
+    "0 - Source Notes/202106031455 - Code syntax line highlighting in Gatsby.md",
+    "0 - Source Notes/202106282334.md",
     "0 - Source Notes/202106281736.md",
     "0 - Source Notes/202106241451 - group className in Twin.md",
     "2 - Blog Posts/202106241440 - Convert ternary operator in TailwindCSS for Twin.macro.md",
     "0 - Source Notes/202106271607.md",
     "0 - Source Notes/202106271557.md",
-    "2 - Blog Posts/20210605-budget-app/index.md",
-    "0 - Source Notes/202011201756 - `.push()` function.md",
-    "0 - Source Notes/202011202144 - Manipulating Arrays.md",
-    "1 - Permanent Notes/VSCode Setup.md",
-    "LYT Index/010 - Programming.md"
+    "2 - Blog Posts/20210605-budget-app/index.md"
   ]
 }
