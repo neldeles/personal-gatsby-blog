@@ -59,6 +59,8 @@ install black in data env (https://medium.com/@marcobelo/setting-up-python-black
 	- only works for `.html` files; for React, you can right-click then use "Rename Symbol"
 - [scroll 10 lines keyboard shortcut](https://stackoverflow.com/questions/61948360/how-to-scroll-10-line-vertically-with-keyboard-without-moving-cursor-in-vs-code)
 	- mapped it to `ctrl+up/down`
+	- installed Turbolog
+	  - allows to quickly create console log messages and can delete all or uncomment all with one click
 
 # Footer
 ---
