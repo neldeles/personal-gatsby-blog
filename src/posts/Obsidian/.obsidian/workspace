@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0 - Source Notes/202106031455 - Code syntax line highlighting in Gatsby.md",
-            "mode": "source"
+            "file": "2 - Blog Posts/202106282334-headlessui-render-props-in-twin.md",
+            "mode": "preview"
           }
         }
       }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0 - Source Notes/202106031455 - Code syntax line highlighting in Gatsby.md",
+                "file": "2 - Blog Posts/202106282334-headlessui-render-props-in-twin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0 - Source Notes/202106031455 - Code syntax line highlighting in Gatsby.md"
+                "file": "2 - Blog Posts/202106282334-headlessui-render-props-in-twin.md"
               }
             }
           },
@@ -109,9 +108,9 @@
   },
   "active": "e849fe99962c7bc5",
   "lastOpenFiles": [
+    "2 - Blog Posts/202106282334-headlessui-render-props-in-twin.md",
     "0 - Source Notes/202106031455 - Code syntax line highlighting in Gatsby.md",
     "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
-    "2 - Blog Posts/202106282334-headlessui-render-props-in-twin.md",
     "0 - Source Notes/202106290520.md",
     "Templates/note template.md",
     "Templates/YAML template.md",

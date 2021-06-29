@@ -10,6 +10,35 @@ references:
 
 Finally got it working for the Listbox. Was trying to use one of TailwindUI's Dropdown components which is built upon HeadlessUI's Listbox.
 
+UPDATE as of 2021-06-29: There's a way to make it not a workaround and the example's right in the docs (https://headlessui.dev/react/listbox#styling-the-active-and-selected-option).
+
+`Listbox.Option` by default renders as a `<li>` element. But if you pass in the `as={Fragment}` prop value, it becomes..a fragment. Then in the render prop func you can just explicitly wrap everything in a `<li>` and style via tw css prop normally. No extra nested div's needed.
+
+```diff
+<Listbox.Option
+  key={person.id} 
+  value={person} 
++  as={Fragment}
+>
+  {({ active, selected }) => (
+    <li
+-      className={`${
+-        active ? 'bg-blue-500 text-white' : 'bg-white text-black'
+-      }`}
++       css={[
++         active && tw`bg-blue-500 text-white`,
++         !active && tw`bg-white text-black`
++       ]}
+    >
+      {selected && <CheckIcon />}
+      {person.name}
+    </li>
+  )}
+</Listbox.Option>
+```
+
+---
+
 The relevant TailwindUI code that was giving me issues:
 
 ```js{16-21}
@@ -182,6 +211,8 @@ const DismissableContent = () => {
 Both are functionally the same, but just with different implementations. Thus applying it to this problem of mine, I assume they are refering to the same `active` render prop argument, and I could just implement them under the child function.
 
 _Caveat_: So far it's working, but I do not actually know if implementing it this way will have adverse effects.
+
+
 
 # Footer
 
