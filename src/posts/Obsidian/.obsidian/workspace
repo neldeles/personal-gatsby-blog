@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "useRef",
+                "query": "gatsby images",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -109,14 +109,14 @@
   "active": "5ad5d548c9fff4e6",
   "lastOpenFiles": [
     "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
+    "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
+    "0 - Source Notes/202102261018 - References to components with ref.md",
     "0 - Source Notes/_images/CleanShot 2021-07-01 at 12.24.22 2.png",
     "0 - Source Notes/_images/CleanShot 2021-07-01 at 12.24.22 1.png",
     "0 - Source Notes/_images/CleanShot 2021-07-01 at 12.24.22.png",
     "0 - Source Notes/202107011223.md",
-    "0 - Source Notes/202102261018 - References to components with ref.md",
     "1 - Permanent Notes/Twin Styling Techniques.md",
     "2 - Blog Posts/202106241440-convert-ternary-operator-in-tailwindcss-for-twin.md",
-    "0 - Source Notes/202103281632 - & syntax in styled-components.md",
-    "1 - Permanent Notes/Testing React apps.md"
+    "0 - Source Notes/202103281632 - & syntax in styled-components.md"
   ]
 }
