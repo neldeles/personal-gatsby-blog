@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
-            "mode": "source"
+            "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
+                "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md"
+                "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md"
               }
             }
           },
@@ -109,15 +109,15 @@
   },
   "active": "86cfeb1cbe298bab",
   "lastOpenFiles": [
-    "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
     "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+    "2 - Blog Posts/_images/CleanShot 2021-06-29 at 05.34.37@2x.png",
+    "2 - Blog Posts/_images/CleanShot 2021-07-26 at 17.45.17@2x.png",
+    "2 - Blog Posts/_images/CleanShot 2021-07-26 at 17.46.47@2x.png",
+    "2 - Blog Posts/_images/CleanShot 2021-07-26 at 17.43.13@2x.png",
+    "2 - Blog Posts/_images/CleanShot 2021-06-29 at 05.25.55@2x.png",
+    "2 - Blog Posts/_images/CleanShot 2021-06-29 at 05.23.37@2x.png",
     "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
-    "2 - Blog Posts/20210605-budget-app/index.md",
-    "0 - Source Notes/202107261741.md",
-    "1 - Permanent Notes/Javascript Mental Models.md",
-    "0 - Source Notes/202101202307 - React Mutation of States.md",
-    "0 - Source Notes/202101200633 - React and Functional Programming.md",
-    "0 - Source Notes/202011300410 - const keyword.md",
-    "LYT Index/MOCs/Javascript MOC.md"
+    "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
+    "2 - Blog Posts/20210605-budget-app/index.md"
   ]
 }
