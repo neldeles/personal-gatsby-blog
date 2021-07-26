@@ -73,3 +73,135 @@ export function rootLevelReducer(state, action){
     });
 }
 ```
+
+## Reusable Modal Forms
+While building the app, I eventually realised that the ModalForm component is something I will be reusing. This means that I had to design it such that it can accept any number of fields/inputs within the form. 
+
+This is where I learned about:
+- the `useRef` hook
+- [passing props to `props.children`](https://medium.com/@justynazet/passing-props-to-props-children-using-react-cloneelement-and-render-props-pattern-896da70b24f6)
+	- [render functions](https://frontarm.com/james-k-nelson/passing-data-props-children/#render-functions)
+
+It's also important to note that there are 2 forms of the problem. If it's only the child (inner component) that will be using the prop, you can pass it to the child directly.
+
+In code it'd look something like this:
+```js
+function Wrapper() {
+const myName = "Justyna"
+  return (
+    <div>
+      <OuterComponent>
+        <InnerComponent name={myName} />
+      </OuterComponent>
+    </div>
+  );
+}
+function OuterComponent(props) {
+  return props.children
+}
+function InnerComponent(props) {
+  return <div>{props.name}</div>;
+}
+export default Wrapper;
+```
+
+The second is passing a prop to parent.props.children from within the parent. This pattern is often used when the children may use some state that is contained in the parent i.e. headlessUI. 
+
+Sticking with the same code example, `myName` can now only be found within `OuterComponent`. This will not work:
+```js
+import React from "react";
+function Wrapper() {
+  return (
+    <div>
+      <OuterComponent>
+        <InnerComponent />
+      </OuterComponent>
+    </div>
+  );
+}
+function OuterComponent(props) {
+  const myName="Justyna"
+  return (props.children props={myName});  // not gonna work ;<
+}
+function InnerComponent(props) {
+  return <div>{props.name}</div>;
+}
+export default Wrapper;
+```
+
+There are 3 solutions I've read about: [cloning an element, render props](https://medium.com/@justynazet/passing-props-to-props-children-using-react-cloneelement-and-render-props-pattern-896da70b24f6), and [use of the Context Api](https://victorofoegbu.com/notes/pass-props-to-react-children-faq).
+
+Context API is only recommended if it's a prop that's globally needed, i.e. components multiple levels wide and deep access it. For my usecase, I just needed to access the `useRef` hook inside of a modal form component, so that my `input` [component is always in focus when the modal opens](202106210019-no-focusable-elements-inside-the-focus-trap-error.md). 
+
+This is what the solution looks like:
+```diff
+const Wrapper = () => {
+	// your renderFunction replaces the child components nested between Parent
+	// any child components you want rendered you add via your render function
++	const renderFunction = (parentRenderProps) => {
++    return (
++      <>
++        <Input
++          placeholder="Example Cat Meow"
++          ref={parentRenderProps}
++          required
++        />
++      </>
++    );
++  };
+
+  return (
+    <div>
+      <ModalFormParent
++        render={renderFunction}
++      />
+-     >
+-      <Child />
+-    </ModalFormParent>
+    </div>
+  );
+};
+
+
+const ModalFormParent = ({
+-  children
++  render
+}) => {
+	const inputFieldRef = useRef(null);
+
+  return (
+    <ClassNames>
+      {({ css }) => (
+        <Transition.Root show={open} as={Fragment}>
+          <Dialog
+            as="div"
+            initialFocus={inputFieldRef}
+            static
+            tw="fixed z-10 inset-0 overflow-y-auto"
+            open={open}
+            onClose={setOpen}
+          >
+            // some code
+							<div tw="mt-1 sm:ml-4 sm:w-3/4">
+-               {children}
++								{render(inputFieldRef)}
+							</div>
+                  
+          </Dialog>
+        </Transition.Root>
+      )}
+    </ClassNames>
+}
+```
+
+Render props is almost similar to the use of Function as Child Component. But there are subtle differences. These are elaborated on in [this article](https://americanexpress.io/faccs-are-an-antipattern/).
+
+## Testing
+Useful links relevant to the app:
+- https://testingjavascript.com/lessons/react-test-drive-assertions-with-dates-in-react
+- https://testingjavascript.com/lessons/react-test-drive-mocking-react-router-s-redirect-component-on-a-form-submission
+- https://testingjavascript.com/lessons/react-test-drive-the-api-call-of-a-react-form-with-react-testing-library
+- https://testingjavascript.com/lessons/react-test-drive-the-submission-of-a-react-form-with-react-testing-library
+- https://testingjavascript.com/lessons/react-mock-http-requests-with-msw
+- https://testingjavascript.com/lessons/react-use-generated-data-in-tests-with-tests-data-bot-to-improve-test-maintainability-ba3445b2
+- https://testingjavascript.com/lessons/react-test-react-components-that-use-the-react-router-router-provider-with-creatememoryhistory-69d5f9ed

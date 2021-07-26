@@ -15,6 +15,8 @@ This is how my current Gatsby project directory looks like:
  In Obsidian, I've imported the *Obsidian* folder as my vault. Then I make sure that all attachments are saved in a subfolder *_images* under current folder of the markdown file. This is important because this is where gatsby will locate the images of our blog posts.
 ![](CleanShot%202021-06-29%20at%2005.25.55@2x.png)
 
+After dragging an image to a blog post, prefix the relative link with `./_images/`. This will render the image correctly when you publish the post.
+
 ### Handling blog posts
 I have a few "parent" folders, but the important takeaway is that Gatsby will only pull blog posts from the *2 - Blog Posts* folder. And from this folder, only posts whose `published` YAML is set to `true`. 
 

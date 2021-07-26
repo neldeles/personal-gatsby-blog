@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "5ad5d548c9fff4e6",
+        "id": "86cfeb1cbe298bab",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
-            "mode": "preview"
+            "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gatsby images",
+                "query": "images",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,9 +68,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md"
+                "file": "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md"
               }
             }
           },
@@ -100,23 +100,24 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 378.2919616699219
+    "width": 282
   },
-  "active": "5ad5d548c9fff4e6",
+  "active": "86cfeb1cbe298bab",
   "lastOpenFiles": [
-    "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
     "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
-    "0 - Source Notes/202102261018 - References to components with ref.md",
-    "0 - Source Notes/_images/CleanShot 2021-07-01 at 12.24.22 2.png",
-    "0 - Source Notes/_images/CleanShot 2021-07-01 at 12.24.22 1.png",
-    "0 - Source Notes/_images/CleanShot 2021-07-01 at 12.24.22.png",
-    "0 - Source Notes/202107011223.md",
-    "1 - Permanent Notes/Twin Styling Techniques.md",
-    "2 - Blog Posts/202106241440-convert-ternary-operator-in-tailwindcss-for-twin.md",
-    "0 - Source Notes/202103281632 - & syntax in styled-components.md"
+    "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+    "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
+    "2 - Blog Posts/20210605-budget-app/index.md",
+    "0 - Source Notes/202107261741.md",
+    "1 - Permanent Notes/Javascript Mental Models.md",
+    "0 - Source Notes/202101202307 - React Mutation of States.md",
+    "0 - Source Notes/202101200633 - React and Functional Programming.md",
+    "0 - Source Notes/202011300410 - const keyword.md",
+    "LYT Index/MOCs/Javascript MOC.md"
   ]
 }

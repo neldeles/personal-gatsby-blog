@@ -7,3 +7,5 @@ links: [[010 - Programming#Languages]]
 - [[JavaScript Basic Data Structures MOC]]
 - [[JavaScript Object Oriented Programming MOC]]
 - [[JavaScript Functional Programming MOC]]
+- [Mocking in Jest](Mocking%20in%20Jest.md)
+- [Javascript Mental Models](Javascript%20Mental%20Models.md)

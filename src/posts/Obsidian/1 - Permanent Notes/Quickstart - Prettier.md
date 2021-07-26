@@ -39,6 +39,19 @@ Then, add eslint-config-prettier to the "extends" array in your `.eslintrc.*` fi
 }
 ```
 
+Also tell ESLint to use Prettier as a plugin:
+```js
+// .eslintrc.js
+module.exports = {
+  env: {
+    es6: true,
+    browser: true,
+    es2021: true,
+  },
+  // ...more options
+  plugins: [‘prettier’],
+};
+```
 ## My prettier config
 The ff is my preferred settings as found on [this site](https://glebbahmutov.com/blog/configure-prettier-in-vscode/):
 ```js

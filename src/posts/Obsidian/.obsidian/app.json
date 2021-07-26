@@ -1,0 +1,13 @@
+{
+  "foldHeading": true,
+  "foldIndent": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0 - Source Notes",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./_images",
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "tabSize": 2,
+  "vimMode": true,
+  "useMarkdownLinks": true
+}
