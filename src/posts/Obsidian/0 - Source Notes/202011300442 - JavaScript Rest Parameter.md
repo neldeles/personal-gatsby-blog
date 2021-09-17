@@ -19,3 +19,4 @@ Related:
 - [[202011202205 - Functions]]
 - [[202011300445 - JavaScript Map Function]]
 - [[202012311518 - JavaScript Reduce Method]]
+- [202109131454-rest-parameters-spread-syntax-arguments-object](202109131454-rest-parameters-spread-syntax-arguments-object.md)

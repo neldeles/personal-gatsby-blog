@@ -16,6 +16,24 @@ arr2 = [...arr1]; // returns ['JAN', 'FEB', 'MAR', 'APR', 'MAY']
 - only works when evaluating arrays in place i.e.:
 	- argument to a function
 	- in an array literal
+- can use it to merge multiple objects
+  - in the case of a key collision, the right-most (last) object's value wins out
+	- this means you can use it to overwrite default properties in a React component
+```js
+const person1 = { name: 'David Walsh', age: 33 };
+const person2 = { name: 'David Walsh Jr.', role: 'kid' };
+
+const merged = {...person1, ...person2}
+/*
+Object {
+  "name": "David Walsh Jr.",
+  "age": 33,
+  "role": "kid",
+}
+*/
+```
+
+
 ---
 Source:
 Keywords: #javascript #es6 

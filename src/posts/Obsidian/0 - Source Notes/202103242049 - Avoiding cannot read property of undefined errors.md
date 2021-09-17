@@ -6,7 +6,7 @@ references:
 
 # Avoiding cannot read property of undefined errors
 
-If using ECMA2020, use optional chaining.
+If using ECMA2020, use [optional chaining](202108271149-optional-chaining.md).
 
 Otherwise, for simple cases, can use short-circuiting with [[202102191622 - React Trick Inline If|&&]] operator.
 

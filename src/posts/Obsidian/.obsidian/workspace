@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+            "file": "0 - Source Notes/202011300442 - JavaScript Rest Parameter.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "images",
+                "query": "spread rest",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+                "file": "0 - Source Notes/202011300442 - JavaScript Rest Parameter.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md"
+                "file": "0 - Source Notes/202011300442 - JavaScript Rest Parameter.md"
               }
             }
           },
@@ -101,23 +102,24 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 282
+    "width": 282,
+    "collapsed": true
   },
   "active": "86cfeb1cbe298bab",
   "lastOpenFiles": [
-    "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
-    "2 - Blog Posts/_images/CleanShot 2021-06-29 at 05.34.37@2x.png",
-    "2 - Blog Posts/_images/CleanShot 2021-07-26 at 17.45.17@2x.png",
-    "2 - Blog Posts/_images/CleanShot 2021-07-26 at 17.46.47@2x.png",
-    "2 - Blog Posts/_images/CleanShot 2021-07-26 at 17.43.13@2x.png",
-    "2 - Blog Posts/_images/CleanShot 2021-06-29 at 05.25.55@2x.png",
-    "2 - Blog Posts/_images/CleanShot 2021-06-29 at 05.23.37@2x.png",
-    "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
-    "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
-    "2 - Blog Posts/20210605-budget-app/index.md"
+    "0 - Source Notes/202011300442 - JavaScript Rest Parameter.md",
+    "0 - Source Notes/202011202205 - Functions.md",
+    "1 - Permanent Notes/Javascript Mental Models.md",
+    "0 - Source Notes/202109131454.md",
+    "LYT Index/010 - Programming.md",
+    "LYT Index/020 - Languages.md",
+    "1 - Permanent Notes/Devonthink Workflow.md",
+    "0 - Source Notes/202109122018.md",
+    "0 - Source Notes/202109092157-callAll-function.md",
+    "0 - Source Notes/202107271509-resolve-promise-on-demand.md"
   ]
 }

@@ -1,7 +1,6 @@
 {
-  "theme": "obsidian",
-  "obsidianCss": false,
-  "cssTheme": "Obsidianite",
+  "theme": "moonstone",
+  "cssTheme": "Yin and Yang",
   "enabledCssSnippets": [],
   "translucency": false,
   "baseFontSize": 16

@@ -8,3 +8,4 @@ link: [[010 - Programming#Theory]]
 - [[202103020838 - Organizing tests in Jest]]
 - [[202103142157 - Define your business requirements]]
 - [[Test Driven Development]]
+-[202107291722-imperative-vs-declarative-programming](202107291722-imperative-vs-declarative-programming.md)

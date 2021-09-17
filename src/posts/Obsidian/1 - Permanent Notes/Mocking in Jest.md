@@ -5,7 +5,7 @@ title:
 published: true
 description:
 aliases:
-references:
+references:['https://1drv.ms/v/s!As2o5OQjnQj8jZEpuIvHsBLMdSbT8g?e=6JtikN', 'https://1drv.ms/v/s!As2o5OQjnQj8jZEqWTIJXW5DBtkqbA?e=8OvqZo']
 ---
 
 # Mocking in Jest
@@ -102,6 +102,9 @@ Mocking an API module works, but it's incomplete because we have to make all the
 We can use a package called [MSW](https://mswjs.io/) to intercept and handle those HTTP requests instead so we can get a great deal more confidence.
 
 TLDR: we can mock modules using the above if they have no API requests; if they do have requests, use MSW.
+
+## Random tips
+If you are mocking a function that takes arguments, make sure to test your mock is working properly. You do this by asserting `expect().toHaveBeenCalledWith(args)`.
 
 # Footer
 ---
