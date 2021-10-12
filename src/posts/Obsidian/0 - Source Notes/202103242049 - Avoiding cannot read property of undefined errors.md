@@ -1,6 +1,6 @@
 ---
 aliases:
-tags: ['javascrtipt']
+tags: ['javascript']
 references:
 ---
 

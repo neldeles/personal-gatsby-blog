@@ -37,6 +37,7 @@ Object {
 ---
 Source:
 Keywords: #javascript #es6 
-Related: [[202011202205 - Functions]]
-, [[202011300442 - JavaScript Rest Parameter]]
-, [[202012181610 - Combine Arrays with the Spread Operator]]
+Related: 
+- [[202011202205 - Functions]]
+- [[202011300442 - JavaScript Rest Parameter]]
+- [[202012181610 - Combine Arrays with the Spread Operator]]

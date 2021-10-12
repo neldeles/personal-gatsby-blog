@@ -6,16 +6,18 @@ references:
 ---
 
 # PostgreSQL Terminal
-- `psql -U postgres` to login as admin
-- `\l` to show all databases
-	- `\c dbname` to connect to a database
-		- `\dt` to list the tables in the connected database
-- `CREATE DATABASE dbname` to create database
-- `q` after executing a query to exit results view
-- `d+ [name_of_table]` to view constraints of table
-- `\x` before writing `select * from users` for a prettier formatted query results
-- `\d+ table_name` to view column names and data types
 
+| Command                  | Description                                                               | Notes |
+| ------------------------ | ------------------------------------------------------------------------- | ----- |
+| `psql -U postgres`       | login as admin                                                            |       |
+| `\l`                      | show all databases                                                        |       |
+| `\c dbname`               | connect to a database                                                     |       |
+| `\dt`                    | list tables in the connected database                                     |       |
+| `CREATE DATABASE dbname` | create database                                                           |       |
+| `q`                      | after executing a query to exit results view                              |       |
+| `d+ [name_of_table]`     | view constraints of table                                                 |       |
+| `\x`                     | before writing `select * from users` for prettier formatted query results |       |
+| `\d+ table_name`         | view column names and data types                                          |       |
 # Footer
 ---
 Related: 

@@ -3,5 +3,12 @@
   "obsidian-vimrc-support",
   "obsidian-relative-line-numbers",
   "mrj-jump-to-link",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-outliner",
+  "obsidian-zoom",
+  "sliding-panes-obsidian",
+  "table-editor-obsidian",
+  "obsidian-style-settings",
+  "cmenu-plugin",
+  "obsidian-copy-block-link"
 ]

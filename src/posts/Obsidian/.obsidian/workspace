@@ -4,13 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "86cfeb1cbe298bab",
+        "id": "3b9f19bfac1842ad",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0 - Source Notes/202011300442 - JavaScript Rest Parameter.md",
-            "mode": "preview"
+            "file": "0 - Source Notes/202110121049-snapshot-testing-in-storybook.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "8b984b3b31df9312",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1 - Permanent Notes/Budget App Outline.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spread rest",
+                "query": "budget app",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -53,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267
+    "width": 289,
+    "collapsed": true
   },
   "right": {
     "id": "2b1526ef9028c607",
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0 - Source Notes/202011300442 - JavaScript Rest Parameter.md",
+                "file": "1 - Permanent Notes/Budget App Outline.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -86,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0 - Source Notes/202011300442 - JavaScript Rest Parameter.md"
+                "file": "1 - Permanent Notes/Budget App Outline.md"
               }
             }
           },
@@ -100,26 +112,42 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "2e98bd7df9e32b2c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d32c8f0be4e5038f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 282,
+    "width": 305,
     "collapsed": true
   },
-  "active": "86cfeb1cbe298bab",
+  "active": "8b984b3b31df9312",
   "lastOpenFiles": [
-    "0 - Source Notes/202011300442 - JavaScript Rest Parameter.md",
-    "0 - Source Notes/202011202205 - Functions.md",
-    "1 - Permanent Notes/Javascript Mental Models.md",
-    "0 - Source Notes/202109131454.md",
-    "LYT Index/010 - Programming.md",
-    "LYT Index/020 - Languages.md",
-    "1 - Permanent Notes/Devonthink Workflow.md",
-    "0 - Source Notes/202109122018.md",
-    "0 - Source Notes/202109092157-callAll-function.md",
-    "0 - Source Notes/202107271509-resolve-promise-on-demand.md"
+    "1 - Permanent Notes/Budget App Outline.md",
+    "0 - Source Notes/202110121049-snapshot-testing-in-storybook.md",
+    "2 - Blog Posts/20210605-budget-app/index.md",
+    "0 - Source Notes/202106211913 - workaround for passing a Table ID of the child to a custom button defined in the `Column.Header` options of the parent.md",
+    "0 - Source Notes/Storybook.md",
+    "0 - Source Notes/202110121049.md",
+    "1 - Permanent Notes/Quick Start - React.md",
+    "0 - Source Notes/202110111849.md",
+    "0 - Source Notes/202110111753-argTypes.md",
+    "1 - Permanent Notes/Quick Start - Initializing Git for a project.md"
   ]
 }

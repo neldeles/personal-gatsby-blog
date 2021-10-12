@@ -11,5 +11,10 @@ references:
 # 
 
 # Footer
+
 ---
-Related: 
+## Related
+
+---
+
+## References

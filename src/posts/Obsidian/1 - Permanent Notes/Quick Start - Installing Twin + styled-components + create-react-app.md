@@ -1,8 +1,7 @@
 ---
 aliases:
 tags: ['twin', 'create-react-app', 'recipe']
-references:
-- 'https://github.com/ben-rogerson/twin.examples/tree/master/cra-styled-components#add-the-global-styles'
+references: ['https://github.com/ben-rogerson/twin.examples/tree/master/cra-styled-components#add-the-global-styles']
 ---
 
 # Installing Twin in your create-react-app
@@ -101,5 +100,12 @@ module.exports = {
 I've set this to `.twindconfig` in my Alfred snippets.
 
 # Footer
+
 ---
-Related: 
+## Related
+
+---
+
+## References
+- https://github.com/ben-rogerson/twin.examples/tree/master/cra-styled-components#add-the-global-styles
+

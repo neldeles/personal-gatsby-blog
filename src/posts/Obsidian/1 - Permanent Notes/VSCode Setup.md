@@ -1,18 +1,12 @@
 # VSCode Setup
 **VSCode Config**
-* set keyboard shortcut to run in Python Interactive Window as ctrl+alt+p 
-* set keyboard shortcut to run up to current line in Python Interactive Window as `ctrl+alt+l`
-* Settings Sync (https://itnext.io/settings-sync-with-vs-code-c3d4f126989) 
+- set keyboard shortcut to run in Python Interactive Window as ctrl+alt+p 
+- set keyboard shortcut to run up to current line in Python Interactive Window as `ctrl+alt+l`
+- Settings Sync (https://itnext.io/settings-sync-with-vs-code-c3d4f126989) 
 install black in data env (https://medium.com/@marcobelo/setting-up-python-black-on-visual-studio-code-5318eba4cd00) 
-* fonts are Fira Code or JetBrains Mono 
-	* `Fira Code, Menlo, Monaco, 'Courier New', monospace`
-		* font weight 500
-	* `JetBrains Mono, Menlo, Monaco, 'Courier New', monospace`
-		* font weight 300
-* theme is City Lights 
-* set italic to work for any theme:  
-* https://www.reddit.com/r/vscode/comments/8gxoer/italic_for_vs_code_with_fira_code_or_operator_mono/ 
-* https://stackoverflow.com/questions/41320848/how-do-i-get-visual-studio-code-to-display-italic-fonts-in-formatted-code (in case above gets taken down. User posted answer here as well) 
+- set italic to work for any theme:  
+	- https://www.reddit.com/r/vscode/comments/8gxoer/italic_for_vs_code_with_fira_code_or_operator_mono/ 
+	- https://stackoverflow.com/questions/41320848/how-do-i-get-visual-studio-code-to-display-italic-fonts-in-formatted-code (in case above gets taken down. User posted answer here as well) 
 * Center Editor Window extension to jump back to cursor. Shortcut is `ctrl + L`
 * Numbered Bookmarks to jump between sections in code
 * cycle between Editor Groups: `ctrl+cmd+alt+tab`
@@ -61,6 +55,42 @@ install black in data env (https://medium.com/@marcobelo/setting-up-python-black
 	- mapped it to `ctrl+up/down`
 	- installed Turbolog
 	  - allows to quickly create console log messages and can delete all or uncomment all with one click
+## Extensions
+#### Markdown Preview Github Styling
+- installed this so Markdown previews look exactly like Github's
+  - allows you to preview how your readme will look like
+
+## Font
+- Fira Code 
+  - `Fira Code, Menlo, Monaco, 'Courier New', monospace`
+  - font weight 500
+### JetBrains Mono
+```json
+"editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New'",
+  "terminal.integrated.fontFamily": "Input Mono Compressed, monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 0,
+  "editor.fontSize": 13,
+"editor.fontWeight": 300,
+```
+### Input Sans Compressed
+```json
+"editor.fontFamily": "Input Sans Compressed, Menlo, Monaco, 'Courier New'",
+"terminal.integrated.fontFamily": "Input Mono Compressed, monospace",
+"editor.fontLigatures": true,
+"editor.lineHeight": 0,
+"editor.fontSize": 13,
+"editor.fontWeight": "normal",
+```
+### MonoLisa
+```json
+"editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New'",
+"terminal.integrated.fontFamily": "Input Mono Compressed, monospace",
+"editor.fontLigatures": true,
+"editor.lineHeight": 0,
+"editor.fontSize": 12,
+"editor.fontWeight": "normal",
+```
 
 # Footer
 ---

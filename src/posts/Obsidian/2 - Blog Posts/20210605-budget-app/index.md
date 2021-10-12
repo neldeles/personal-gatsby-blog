@@ -2,7 +2,7 @@
 date: 2021-06-05
 tags: ["projects"]
 title: "Budget App"
-published: true
+published: false
 description: Blog post on project to follow.
 ---
 
@@ -12,6 +12,7 @@ New tools I've discovered or learned while building this project:
 - [react-datetime](https://github.com/arqex/react-datetime)
 - [reselect library](https://redux.js.org/tutorials/fundamentals/part-7-standard-patterns#memoized-selectors)
 - [Immer library](https://www.pluralsight.com/guides/deeply-nested-objectives-redux)
+- 
 ## Reselect Library
 
 Allows me to generate memoized selector functions for use with Redux
@@ -205,3 +206,15 @@ Useful links relevant to the app:
 - https://testingjavascript.com/lessons/react-mock-http-requests-with-msw
 - https://testingjavascript.com/lessons/react-use-generated-data-in-tests-with-tests-data-bot-to-improve-test-maintainability-ba3445b2
 - https://testingjavascript.com/lessons/react-test-react-components-that-use-the-react-router-router-provider-with-creatememoryhistory-69d5f9ed
+
+# Second Take
+
+This app actually took me 2 tries. In the first attempt, it was a few months since having completed the [fullstackopen](fullstackopen.com) course. My mindset at the time was, "Okay. I know react. Let's build something." As you might expect, the attempt was all over the place. For example, I made components reusable by just adding one prop after another, until all use-cases were covered. This led to more and more headaches down the line as more use cases popped up. 
+
+I came across Kent Dodd's Compound Components pattern...and that blew me away. I refactored my components and it was such a PITA trying to do so on these monolithic components of mine. After successfully doing it....I knew I needed a way to easily document what my components did. 
+
+Read about Storybook...and it blew me away as well. Here was a tool that not only allowed you to easily document the live code your app uses, but also supercharged your workflow.
+
+Its Component Driven Developoment approach to building out your app was eye-opening. A big problem I knew I had was how to simplify and manage the complexity of building a medium-sized app. I knew right away I could have saved so much time building my budget app if I had known about this tool and method earlier. 
+
+Rather than go through another painful refactoring exercise, I decided to just start from scratch. This time taking advantage of Storybook + Chromatic + the more advanced React patterns I've picked up from Epic React.

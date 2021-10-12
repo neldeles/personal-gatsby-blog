@@ -72,3 +72,4 @@ showName("Ilya");
 
 ---
 Related: 
+- [Object Destructuring vs Spread Operator vs Rest Parameter](Object%20Destructuring%20vs%20Spread%20Operator%20vs%20Rest%20Parameter.md)
