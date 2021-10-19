@@ -5,6 +5,7 @@ references:
 ---
 
 # QMK Configurator
+
 1. Export json file from config.qmk.fm
 2. Using QMK MSYS, navigate to folder where that json file is stored. 
 3. Conver the json file to a C file: `qmk json2c -o <output_name> json_filename`

@@ -15,6 +15,8 @@ If it is an existing React project and you want to install Twin in it, you just 
 npm install twin.macro tailwindcss styled-components
 ```
 
+Note the [PostCSS 8 issue](202110182144-deploying-storybook.md#PostCSS%208%20issue) for CRA. May need to install Tailwind's compatibility package instead.
+
 ## Add the global styles
 Import `GlobalStyles` within a new file placed in `src/styles/GlobalStyles.js`:
 ```js

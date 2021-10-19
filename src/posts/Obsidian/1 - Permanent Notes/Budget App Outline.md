@@ -15,10 +15,20 @@ references:
 This being my first major project, I am outlining below in more detail the steps I took when building this app.
 
 - [create project using `create-react-app`](Quick%20Start%20-%20React.md)
+	- [setup absolute imports in CRA](202110151438-absolute-imports-in-create-react-app.md)
 - [install Twin.macro + emotion](https://github.com/ben-rogerson/twin.examples/tree/master/cra-emotion)
 - [enable Git](Quick%20Start%20-%20Initializing%20Git%20for%20a%20project.md)
 - [install Storybook](Storybook.md#Initial%20Setup)
 	- [configure Storybook for snapshot testing](202110121049-snapshot-testing-in-storybook.md)
+- [install react-router-dom](React%20Router%20Library.md#Install%20the%20library)
+	- we installed this right away to build out a `<Link/>` component
+- [installed Tailwind forms](202110141545-checkbox-css-not-working.md)
+	- installed this so we can stylize checkbox and other form elements
+- created first Molecule, `LoginForm`
+	- learned about [actions and prevent default](202110171449-actions-and-prevent-default.md)
+- created first Screen, `LoginScreen.stories.js`
+	- learned about and applied the [args composition](https://storybook.js.org/docs/react/workflows/build-pages-with-storybook) pattern when building screens
+- [Setup Storybook for deployment to Chromatic](202110182144-deploying-storybook.md)
 
 
 ## Modal Form component

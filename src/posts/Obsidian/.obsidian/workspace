@@ -6,10 +6,11 @@
       {
         "id": "3b9f19bfac1842ad",
         "type": "leaf",
+        "dimension": 49.85294117647059,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0 - Source Notes/202110121049-snapshot-testing-in-storybook.md",
+            "file": "2 - Blog Posts/Internal linking test with spaces.md",
             "mode": "source"
           }
         }
@@ -17,10 +18,11 @@
       {
         "id": "8b984b3b31df9312",
         "type": "leaf",
+        "dimension": 50.14705882352941,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1 - Permanent Notes/Budget App Outline.md",
+            "file": "0 - Source Notes/202110191511-args-composition-in-Storybook.md",
             "mode": "source"
           }
         }
@@ -50,8 +52,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "budget app",
-                "matchingCase": false,
+                "query": "compound comp",
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
@@ -59,13 +61,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 289,
-    "collapsed": true
+    "width": 289
   },
   "right": {
     "id": "2b1526ef9028c607",
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Permanent Notes/Budget App Outline.md",
+                "file": "2 - Blog Posts/Internal linking test with spaces.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Permanent Notes/Budget App Outline.md"
+                "file": "2 - Blog Posts/Internal linking test with spaces.md"
               }
             }
           },
@@ -130,24 +130,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 305,
     "collapsed": true
   },
-  "active": "8b984b3b31df9312",
+  "active": "3b9f19bfac1842ad",
   "lastOpenFiles": [
+    "2 - Blog Posts/Internal linking test with spaces.md",
+    "2 - Blog Posts/Test internal linking with spaces.md",
+    "2 - Blog Posts/Test internal linking with spaces 1.md",
+    "2 - Blog Posts/Untitled.md",
+    "2 - Blog Posts/202106241440-convert-ternary-operator-in-tailwindcss-for-twin.md",
+    "0 - Source Notes/202110191653.md",
+    "Templates/note template.md",
+    "Templates/YAML template.md",
     "1 - Permanent Notes/Budget App Outline.md",
-    "0 - Source Notes/202110121049-snapshot-testing-in-storybook.md",
-    "2 - Blog Posts/20210605-budget-app/index.md",
-    "0 - Source Notes/202106211913 - workaround for passing a Table ID of the child to a custom button defined in the `Column.Header` options of the parent.md",
-    "0 - Source Notes/Storybook.md",
-    "0 - Source Notes/202110121049.md",
-    "1 - Permanent Notes/Quick Start - React.md",
-    "0 - Source Notes/202110111849.md",
-    "0 - Source Notes/202110111753-argTypes.md",
-    "1 - Permanent Notes/Quick Start - Initializing Git for a project.md"
+    "0 - Source Notes/202110191511-args-composition-in-Storybook.md"
   ]
 }

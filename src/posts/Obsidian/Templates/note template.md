@@ -6,6 +6,7 @@ published: true
 description:
 aliases:
 references:
+zet_id: {{date:YYYYMMDDTHHmmss}}
 ---
 
 # 

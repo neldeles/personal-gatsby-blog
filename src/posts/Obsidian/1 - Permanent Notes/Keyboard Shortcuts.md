@@ -11,15 +11,16 @@ references:
 # Keyboard Shortcuts
 
 ## Things
-| Shortcut                              | Description                  | Notes |
-| ------------------------------------- | ---------------------------- | ----- |
-| <kbd>⌘</kbd><kbd>/</kbd>              | Toggle sidebar               |       |
-| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>N</kbd>  | Create new heading           |       |
-| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>T</kbd>  | Edit tags for selected items |       |
-| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>R</kbd>  | Add repetition schedule      |       |
-| <kbd>⌃</kbd><kbd>⇧</kbd><kbd>\\</kbd> | Quick entry                  |       |
-| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>C</kbd>  | New checklist in open to-do  |       |
-| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>N</kbd>  | New heading                  |       |
+| Shortcut                                                     | Description                  | Notes |
+| ------------------------------------------------------------ | ---------------------------- | ----- |
+| <kbd>⌘</kbd><kbd>/</kbd>                                     | Toggle sidebar               |       |
+| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>N</kbd>                         | Create new heading           |       |
+| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>T</kbd>                         | Edit tags for selected items |       |
+| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>R</kbd>                         | Add repetition schedule      |       |
+| <kbd>⌃</kbd><kbd>⇧</kbd><kbd>\\</kbd>                        | Quick entry                  |       |
+| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>C</kbd>                         | New checklist in open to-do  |       |
+| <kbd>⇧</kbd><kbd>⌘</kbd><kbd>N</kbd>                         | New heading                  |       |
+| <kbd>⌃</kbd> <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>T</kbd> | Quick entry with Autofill    |       |
 
 ## VSCode
 
@@ -35,7 +36,18 @@ references:
 | ------------------------------------ | ------------------ | ------------------------- |
 | <kbd>⌃</kbd><kbd>⌥</kbd><kbd>L</kbd> | Insert console log | Select the variable first | 
 
+### VSVim
+
+| Shortcut                                   | Description                                                  | Notes                                           |
+| ------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| <kbd>⌃</kbd><kbd>`</kbd>                   | Jump from editor to the terminal                             |                                                 |
+| <kbd>⌃</kbd><kbd>k</kbd>                   | Jump from terminal to editor                                 |                                                 |
+| <kbd>⌃</kbd><kbd>hjkl</kbd>                | Navigate VSCode windows                                      | changed this from the default of ctrl + w, hjkl |
+| <kbd>⇧</kbd><kbd>j</kbd>/<kbd>k</kbd>      | Navigate by 10 lines                                         |                                                 |
+| <kbd>leader</kbd><kbd>o</kbd>/<kbd>O</kbd> | Inspert space above/below current line without going into insert mode |                                                 |
+
 ## TickTick
+
 | Shortcut                             | Description                      | Notes |
 | ------------------------------------ | -------------------------------- | ----- |
 | <kbd>~</kbd>                         | Add or move task to certain list |       |
