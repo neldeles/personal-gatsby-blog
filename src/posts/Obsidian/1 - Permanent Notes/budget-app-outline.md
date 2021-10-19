@@ -1,7 +1,7 @@
 ---
 date: '2021-09-30T19:49:11'
 tags: ['project', 'react', 'outline']
-title: 
+title: Budget App Outline
 published: true
 description:
 aliases:
@@ -29,6 +29,7 @@ This being my first major project, I am outlining below in more detail the steps
 - created first Screen, `LoginScreen.stories.js`
 	- learned about and applied the [args composition](https://storybook.js.org/docs/react/workflows/build-pages-with-storybook) pattern when building screens
 - [Setup Storybook for deployment to Chromatic](202110182144-deploying-storybook.md)
+- install MSW to setup our mock REST API
 
 
 ## Modal Form component

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/Internal linking test with spaces.md",
+            "file": "1 - Permanent Notes/budget-app-outline.md",
             "mode": "source"
           }
         }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0 - Source Notes/202110191511-args-composition-in-Storybook.md",
+            "file": "1 - Permanent Notes/budget-app-outline.md",
             "mode": "source"
           }
         }
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289
+    "width": 289,
+    "collapsed": true
   },
   "right": {
     "id": "2b1526ef9028c607",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/Internal linking test with spaces.md",
+                "file": "1 - Permanent Notes/budget-app-outline.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/Internal linking test with spaces.md"
+                "file": "1 - Permanent Notes/budget-app-outline.md"
               }
             }
           },
@@ -139,15 +140,15 @@
   },
   "active": "3b9f19bfac1842ad",
   "lastOpenFiles": [
+    "1 - Permanent Notes/Budget App Outline.md",
+    "2 - Blog Posts/Test internal linking with no spaces.md",
     "2 - Blog Posts/Internal linking test with spaces.md",
+    "0 - Source Notes/202110191511-args-composition-in-Storybook.md",
     "2 - Blog Posts/Test internal linking with spaces.md",
     "2 - Blog Posts/Test internal linking with spaces 1.md",
     "2 - Blog Posts/Untitled.md",
     "2 - Blog Posts/202106241440-convert-ternary-operator-in-tailwindcss-for-twin.md",
     "0 - Source Notes/202110191653.md",
-    "Templates/note template.md",
-    "Templates/YAML template.md",
-    "1 - Permanent Notes/Budget App Outline.md",
-    "0 - Source Notes/202110191511-args-composition-in-Storybook.md"
+    "Templates/note template.md"
   ]
 }
