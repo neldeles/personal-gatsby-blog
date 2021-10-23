@@ -44,7 +44,7 @@ references:
 | <kbd>⌃</kbd><kbd>k</kbd>                   | Jump from terminal to editor                                 |                                                 |
 | <kbd>⌃</kbd><kbd>hjkl</kbd>                | Navigate VSCode windows                                      | changed this from the default of ctrl + w, hjkl |
 | <kbd>⇧</kbd><kbd>j</kbd>/<kbd>k</kbd>      | Navigate by 10 lines                                         |                                                 |
-| <kbd>leader</kbd><kbd>o</kbd>/<kbd>O</kbd> | Inspert space above/below current line without going into insert mode |                                                 |
+| <kbd>leader</kbd><kbd>o</kbd>/<kbd>O</kbd> | Inspert new line above/below current line without going into insert mode |                                                 |
 
 ## TickTick
 

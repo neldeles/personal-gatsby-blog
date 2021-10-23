@@ -1,6 +1,6 @@
 ---
 date: '2021-07-26T17:41:47'
-tags: ['vscode']
+tags: vscode, 
 title: Customizing VSCode Token Colors
 published: true
 description:

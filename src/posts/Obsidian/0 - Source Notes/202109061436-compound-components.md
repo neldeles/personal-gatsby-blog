@@ -1,6 +1,6 @@
 ---
 date: '2021-09-06T14:36:37'
-tags: ['react', 'compound-components', 'components']
+tags: ['react', 'compound-components', 'components', 'react/context']
 title: Compound Components
 published: true
 description:

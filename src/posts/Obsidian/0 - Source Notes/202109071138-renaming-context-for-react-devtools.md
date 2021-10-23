@@ -1,6 +1,6 @@
 ---
 date: '2021-09-07T11:38:15'
-tags: ['react-context']
+tags: ['react/context']
 title: 
 published: true
 description:

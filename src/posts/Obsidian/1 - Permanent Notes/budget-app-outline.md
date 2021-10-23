@@ -29,7 +29,11 @@ This being my first major project, I am outlining below in more detail the steps
 - created first Screen, `LoginScreen.stories.js`
 	- learned about and applied the [args composition](https://storybook.js.org/docs/react/workflows/build-pages-with-storybook) pattern when building screens
 - [Setup Storybook for deployment to Chromatic](202110182144-deploying-storybook.md)
-- install MSW to setup our mock REST API
+- [install MSW to setup our mock REST API for the browser](MSW-Setup.md)
+	- install [Axios](202102190653%20-%20Axios%20Library.md) to [generate our HTTP requests which MSW will intercept for us ](msw-axios-react.md)
+- define unit test for the [Input component](https://github.com/neldeles/budget-app-v2/blob/main/src/components/atoms/Input/Input.unit.test.js)
+- define integration test for the LoginScreen
+	- since this is our first test that makes an HTTP request, we need to setup MSW for Node
 
 
 ## Modal Form component

@@ -10,5 +10,6 @@
   "obsidian-style-settings",
   "cmenu-plugin",
   "obsidian-copy-block-link",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-linter"
 ]

@@ -6,24 +6,11 @@
       {
         "id": "3b9f19bfac1842ad",
         "type": "leaf",
-        "dimension": 49.85294117647059,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1 - Permanent Notes/budget-app-outline.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "8b984b3b31df9312",
-        "type": "leaf",
-        "dimension": 50.14705882352941,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "1 - Permanent Notes/budget-app-outline.md",
-            "mode": "source"
+            "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "compound comp",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -65,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289,
-    "collapsed": true
+    "width": 289
   },
   "right": {
     "id": "2b1526ef9028c607",
@@ -82,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Permanent Notes/budget-app-outline.md",
+                "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -99,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Permanent Notes/budget-app-outline.md"
+                "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md"
               }
             }
           },
@@ -110,16 +96,8 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": false
+                "useHierarchy": true
               }
-            }
-          },
-          {
-            "id": "2e98bd7df9e32b2c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -131,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -140,15 +118,15 @@
   },
   "active": "3b9f19bfac1842ad",
   "lastOpenFiles": [
-    "1 - Permanent Notes/Budget App Outline.md",
-    "2 - Blog Posts/Test internal linking with no spaces.md",
-    "2 - Blog Posts/Internal linking test with spaces.md",
-    "0 - Source Notes/202110191511-args-composition-in-Storybook.md",
-    "2 - Blog Posts/Test internal linking with spaces.md",
-    "2 - Blog Posts/Test internal linking with spaces 1.md",
-    "2 - Blog Posts/Untitled.md",
-    "2 - Blog Posts/202106241440-convert-ternary-operator-in-tailwindcss-for-twin.md",
-    "0 - Source Notes/202110191653.md",
-    "Templates/note template.md"
+    "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+    "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
+    "0 - Source Notes/waitForElementToBeRemoved.md",
+    "0 - Source Notes/Error-message-assertions-best-practice.md",
+    "0 - Source Notes/test-factories.md",
+    "Templates/YAML template.md",
+    "Templates/note template.md",
+    "0 - Source Notes/202110231122.md",
+    "0 - Source Notes/202110231031.md",
+    "0 - Source Notes/202110231015.md"
   ]
 }

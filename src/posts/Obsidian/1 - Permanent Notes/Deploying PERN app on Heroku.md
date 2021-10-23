@@ -6,6 +6,7 @@ references:
 ---
 
 # Deploying PERN app on Heroku
+
 ## Configure main Server file
 1. Move files in your *Server*  folder to the root folder then delete the *Server* folder. This is because Heroku needs a *package.json* file in the root folder.
 2. Use `PORT` as an `env` variable and make sure to change `app.listen` to use that port. 

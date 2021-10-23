@@ -1,6 +1,6 @@
 ---
 date: 
-tags: ['react', 'react_components']
+tags: ['react/components']
 title: 
 published:
 description:
