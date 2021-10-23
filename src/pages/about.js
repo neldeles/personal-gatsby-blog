@@ -1,6 +1,5 @@
 import * as React from "react"
 import tw from "twin.macro"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import ContentContainer from "../components/contentContainer"

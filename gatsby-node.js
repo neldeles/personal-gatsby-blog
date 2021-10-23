@@ -6,7 +6,13 @@ const slugify = require("slugify")
 const { attachFields } = require(`gatsby-plugin-node-fields`)
 
 // lower case array
-const tagsToLowerCase = tagsArr => {
+const tagsToLowerCase = tags => {
+  let tagsArr
+  if (Array.isArray(tags)) {
+    tagsArr = tags
+  } else {
+    tagsArr = tags.split(/[\s,]+/)
+  }
   const output = tagsArr.map(tag => tag.toLowerCase())
   return output
 }

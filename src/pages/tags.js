@@ -1,7 +1,6 @@
-import { jsx } from "@emotion/react"
 import React from "react"
 import PropTypes from "prop-types"
-import tw from "twin.macro"
+import "twin.macro"
 
 // Utilities
 import kebabCase from "lodash/kebabCase"

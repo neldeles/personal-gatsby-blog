@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import tw from "twin.macro"
 import TwitterIcon from "../assets/twitter.inline.svg"
 import GithubIcon from "../assets/github.inline.svg"

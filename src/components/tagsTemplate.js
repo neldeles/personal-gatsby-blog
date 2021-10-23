@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import tw from "twin.macro"
+import "twin.macro"
 
 // Components
 import { Link, graphql } from "gatsby"

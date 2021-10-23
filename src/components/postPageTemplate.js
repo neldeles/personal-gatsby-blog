@@ -2,7 +2,7 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import React from "react"
 import Layout from "./layout"
-import tw from "twin.macro"
+import "twin.macro"
 import SEO from "./seo"
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
 
@@ -15,10 +15,12 @@ export const query = graphql`
   query PostsByID($id: String!) {
     mdx(id: { eq: $id }) {
       body
+      fields {
+        tagsFormatted
+      }
       frontmatter {
         title
         date(formatString: "YYYY MMMM Do")
-        tags
         description
       }
     }
@@ -26,7 +28,8 @@ export const query = graphql`
 `
 
 const PostPageTemplate = ({ data }) => {
-  const { frontmatter, body } = data.mdx
+  const { frontmatter, body, fields } = data.mdx
+  console.log(frontmatter)
   return (
     <Layout>
       <SEO title={frontmatter.title} description={frontmatter.description} />
@@ -41,9 +44,9 @@ const PostPageTemplate = ({ data }) => {
                 {frontmatter.title}
               </span>
               <span tw="text-center mt-2 text-sm block">
-                {frontmatter.tags != null &&
-                  frontmatter.tags.length > 0 &&
-                  frontmatter.tags.map((tag, i, arr) => {
+                {fields.tagsFormatted != null &&
+                  fields.tagsFormatted.length > 0 &&
+                  fields.tagsFormatted.map((tag, i, arr) => {
                     if (arr.length - 1 === i) {
                       // last element in array
                       return <Tags key={tag} tag={tag} content="&nbsp;" />

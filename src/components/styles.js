@@ -1,4 +1,3 @@
-import { jsx } from "@emotion/react"
 import React from "react"
 import tw, { styled } from "twin.macro"
 import { Link } from "gatsby"

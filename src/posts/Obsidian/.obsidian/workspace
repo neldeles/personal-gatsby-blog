@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
-            "mode": "preview"
+            "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gatsby tags",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+                "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202107261741-Customizing vscode token colors.md"
+                "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md"
               }
             }
           },
@@ -118,15 +118,15 @@
   },
   "active": "3b9f19bfac1842ad",
   "lastOpenFiles": [
-    "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
     "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
+    "2 - Blog Posts/202106071524 - Case insensitive tags in Gatsby/index.md",
+    "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
+    "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
+    "1 - Permanent Notes/Gatsby MOC.md",
+    "0 - Source Notes/202106051701 - flash of unstyled content gatsby.md",
+    "0 - Source Notes/202106051423 - Gatsby Emotion JSX Pragma.md",
+    "0 - Source Notes/202105301336 - Starting Gtasby Dev Server.md",
     "0 - Source Notes/waitForElementToBeRemoved.md",
-    "0 - Source Notes/Error-message-assertions-best-practice.md",
-    "0 - Source Notes/test-factories.md",
-    "Templates/YAML template.md",
-    "Templates/note template.md",
-    "0 - Source Notes/202110231122.md",
-    "0 - Source Notes/202110231031.md",
-    "0 - Source Notes/202110231015.md"
+    "0 - Source Notes/Error-message-assertions-best-practice.md"
   ]
 }

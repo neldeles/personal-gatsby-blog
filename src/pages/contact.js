@@ -1,6 +1,4 @@
-import { jsx } from "@emotion/react"
 import React from "react"
-import tw from "twin.macro"
 
 // Components
 import Layout from "../components/layout"

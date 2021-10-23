@@ -23,10 +23,10 @@ export const query = graphql`
           title
           date(formatString: "[']YY MMM DD")
           description
-          tags
         }
         fields {
           slug
+          tagsFormatted
         }
       }
     }
@@ -56,9 +56,9 @@ const BlogPage = ({ data, pageContext }) => {
                 </Link>
                 <p tw="block text-base text-gray-900 font-normal tracking-wide">
                   {frontmatter.date}
-                  {frontmatter.tags != null &&
-                    frontmatter.tags.length > 0 &&
-                    frontmatter.tags.map((tag, i, arr) => {
+                  {fields.tagsFormatted != null &&
+                    fields.tagsFormatted.length > 0 &&
+                    fields.tagsFormatted.map((tag, i, arr) => {
                       if (i === 0) {
                         // first element in array
                         if (arr.length === 1) {
