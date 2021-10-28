@@ -12,5 +12,6 @@
   "vimMode": true,
   "useMarkdownLinks": true,
   "lineWrap": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "fileSortOrder": "byCreatedTime"
 }

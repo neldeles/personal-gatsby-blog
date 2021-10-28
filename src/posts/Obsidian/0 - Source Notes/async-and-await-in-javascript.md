@@ -1,4 +1,17 @@
+---
+date:
+tags: javascript, es7,
+title:
+published:
+description:
+aliases:
+references:
+zet_id: 202102100642
+date_modified: 2021-10-24T21:09:06
+---
+
 # async/await
+
 Introduced in ES7, the [Async/await syntax](https://facebook.github.io/jest/docs/en/asynchronous.html) can be used for writing asynchronous code with the appearance of synchronous code. Allows us to work around callback hell that *promises* can unravel to.
 
 Normally we would have to use callback functions to access the data returned by promises, but with the new syntax things are a lot more comfortable:
@@ -10,14 +23,18 @@ const response = await api.get('/api/notes')
 // the result of HTTP request is saved in variable response
 expect(response.body).toHaveLength(2)
 ```
+
 ## Important details
+
 - in order to use the await operator with asynchronous operations, they have to return a promise
 	- this is not a problem as such, as regular asynchronous functions using callbacks are easy to wrap around promises
 - await keyword can't be used just anywhere in JavaScript code
 	- using await is possible only inside of an [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) function
 
 ## Promise chaining vs async/await
+
 Using promise chaining:
+
 ```js
 Note.find({})
   .then(notes => {
@@ -28,6 +45,7 @@ Note.find({})
     // more code here
   })
 ```
+
 Using async/await:
 ```js
 const main = async () => {
@@ -43,7 +61,8 @@ main()
 The code declares that the function assigned to _main_ is asynchronous. After this the code calls the function with `main()`.
 
 ## Error handling with async/await
-With async/await the recommended way of dealing with exceptions is the old and familiar `try/catch` mechanism: 
+
+With async/await the recommended way of dealing with exceptions is the old and familiar `try/catch` mechanism:
 ```js
 notesRouter.post('/', async (request, response, next) => {
   const body = request.body
@@ -53,14 +72,14 @@ notesRouter.post('/', async (request, response, next) => {
     important: body.important || false,
     date: new Date(),
   })
-  
+
   // note.save()
   //  .then(savedNote => {
   //    response.json(savedNote)
   //  })
   //  .catch(error => next(error))
-  
-  try { 
+
+  try {
     const savedNote = await note.save()
     response.json(savedNote)
   } catch(exception) {
@@ -68,7 +87,9 @@ notesRouter.post('/', async (request, response, next) => {
   }
 })
 ```
+
 ### The express-async-errors library
+
 We can refactor error-handling use this library such that we eliminate the `catch` clause.
 ```bash
 npm install express-async-errors
@@ -109,10 +130,10 @@ notesRouter.delete('/:id', async (request, response) => {
   response.status(204).end()
 })
 ```
+
 Footer
 ---
 Source:
-Keywords: #javascript #es7
 Related:
 - [[Testing Node applications - 1 - Backend]]
 - [[202012101730 - Create a JavaScript Promise]]

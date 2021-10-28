@@ -1,12 +1,13 @@
 ---
 date: '2021-10-19T17:24:07'
 tags: ['msw']
-title: Mock Service Worker Setup 
+title: Mock Service Worker Setup
 published: true
 description:
 aliases:
 references:
 zet_id: 20211019T172407
+date_modified: 2021-10-26T16:33:03
 ---
 
 # Mock Service Worker Setup
@@ -17,13 +18,14 @@ npm install msw --save-dev
 ```
 
 ## Define mocks
+
 Create a mocks folder in your root: `src/mocks`.  Create a module to store all your request handlers: `src/mocks/handlers.js`.
 
 We can now start mocking a REST API. In `handlers.js` import the essentials needed for mocking a REST API.
 ```jsx
 import {rest} from 'msw'
 ```
- 
+
 ### Request handler
 
 To handle a REST API request, need to specify:
@@ -99,7 +101,7 @@ Execute the `init` command of MSW CLI:
 npx msw init <PUBLIC_DIR> --save
 ```
 
-`PUBLIC_DIR` differs per JS framework. For create-react-app it's: 
+`PUBLIC_DIR` differs per JS framework. For create-react-app it's:
 
 ```bash
 npx msw init public/ --save
@@ -136,17 +138,16 @@ Your browser's console should now display the ff: `[MSW] Mocking enabled`.
 
 [^1]: You don't need to create a `.env` for this one as CRA sets up the three `NODE_ENV` environments for us
 
-
-
 ### Node
 
-1. Need to [configure the server](https://mswjs.io/docs/getting-started/integrate/node#configure-server). 
+1. Need to [configure the server](https://mswjs.io/docs/getting-started/integrate/node#configure-server).
 2. [configure API mocking as a part of our tests setup](https://mswjs.io/docs/getting-started/integrate/node#setup) aka set it up globally. If using CRA, global set up is [simple](https://create-react-app.dev/docs/running-tests/#initializing-test-environment). Just create `src/setupTests.js` and paste the ff:
       ```js
 		// src/setupTests.js
 		import { server } from './mocks/server.js'
 		// Establish API mocking before all tests.
-		beforeAll(() => server.listen())
+		// Kent Dodds recommends putting this object in to handle unhandled requests
+		beforeAll(() => server.listen({onUnhandledRequest: 'error'}))
 
 		// Reset any request handlers that we may add during the tests,
 		// so they don't affect other tests.
@@ -176,12 +177,13 @@ test( name: "renders welcome message when user is fetched successfully", fn: asy
 	expect (getByText ( text: /Loading.../ ). toBeInTheDocument();
 	await waitFor callback: () =>
 	expect (getByText ( text: /Welcome, RedhwanNacef./i)).toBeInTheDocument()
-}	
+}
 ```
 
 # Footer
 
 ---
+
 ## Related
 
 - [[msw-axios-react]]
@@ -189,4 +191,5 @@ test( name: "renders welcome message when user is fetched successfully", fn: asy
 ---
 
 ## References
+
 - https://mswjs.io/docs/getting-started/mocks

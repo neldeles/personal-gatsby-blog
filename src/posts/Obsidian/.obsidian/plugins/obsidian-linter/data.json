@@ -8,7 +8,7 @@
       "Text to insert": "aliases: \ntags: "
     },
     "YAML Timestamp": {
-      "Keep track of the date the file was last edited in the YAML front matter. Gets dates from file metadata.": false,
+      "Keep track of the date the file was last edited in the YAML front matter. Gets dates from file metadata.": true,
       "Date Created": false,
       "Date Created Key": "date created",
       "Date Modified": true,
@@ -42,7 +42,7 @@
       "Removes hyphenated line breaks. Useful when pasting text from textbooks.": false
     },
     "Trailing spaces": {
-      "Removes extra spaces after every line.": false,
+      "Removes extra spaces after every line.": true,
       "Two Space Linebreak": false
     },
     "Heading blank lines": {

@@ -38,13 +38,14 @@ references:
 
 ### VSVim
 
-| Shortcut                                   | Description                                                  | Notes                                           |
-| ------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
-| <kbd>⌃</kbd><kbd>`</kbd>                   | Jump from editor to the terminal                             |                                                 |
-| <kbd>⌃</kbd><kbd>k</kbd>                   | Jump from terminal to editor                                 |                                                 |
-| <kbd>⌃</kbd><kbd>hjkl</kbd>                | Navigate VSCode windows                                      | changed this from the default of ctrl + w, hjkl |
-| <kbd>⇧</kbd><kbd>j</kbd>/<kbd>k</kbd>      | Navigate by 10 lines                                         |                                                 |
-| <kbd>leader</kbd><kbd>o</kbd>/<kbd>O</kbd> | Inspert new line above/below current line without going into insert mode |                                                 |
+| Shortcut                                   | Description                                                  | Notes                                                 |
+| ------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------------- |
+| <kbd>⌃</kbd><kbd>`</kbd>                   | Jump from editor to the terminal                             |                                                       |
+| <kbd>⌃</kbd><kbd>k</kbd>                   | Jump from terminal to editor                                 |                                                       |
+| <kbd>⌃</kbd><kbd>hjkl</kbd>                | Navigate VSCode windows                                      | changed this from the default of ctrl + w, hjkl       |
+| <kbd>⇧</kbd><kbd>j</kbd>/<kbd>k</kbd>      | Navigate by 10 lines                                         |                                                       |
+| <kbd>leader</kbd><kbd>o</kbd>/<kbd>O</kbd> | Inspert new line above/below current line without going into insert mode |                                                       |
+| `vat`                                      | Select entire code block                                     | faster way of VSCode's expand selection to code block |
 
 ## TickTick
 

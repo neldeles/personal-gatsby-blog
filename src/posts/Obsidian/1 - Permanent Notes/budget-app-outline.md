@@ -32,8 +32,11 @@ This being my first major project, I am outlining below in more detail the steps
 - [install MSW to setup our mock REST API for the browser](MSW-Setup.md)
 	- install [Axios](202102190653%20-%20Axios%20Library.md) to [generate our HTTP requests which MSW will intercept for us ](msw-axios-react.md)
 - define unit test for the [Input component](https://github.com/neldeles/budget-app-v2/blob/main/src/components/atoms/Input/Input.unit.test.js)
-- define integration test for the LoginScreen
-	- since this is our first test that makes an HTTP request, we need to setup MSW for Node
+- define integration test for the [LoginScreen](hook://file/4wISNimVd?p=c2NyZWVucy9Mb2dpblNjcmVlbg==&n=LoginScreen%2Eint%2Etest%2Ejs)
+	- since this is our first test that makes an HTTP request, we need to [setup MSW](MSW-Setup.md#Node) for Node
+- installed headlessui so we can use sidebar TailwindUI component
+	- headlessui isn't installed in our Twin setup
+- installed heroicons
 
 
 ## Modal Form component

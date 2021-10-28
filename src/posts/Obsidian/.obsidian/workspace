@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
+            "file": "2 - Blog Posts/using-stories-as-components.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gatsby tags",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
+                "file": "2 - Blog Posts/using-stories-as-components.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md"
+                "file": "2 - Blog Posts/using-stories-as-components.md"
               }
             }
           },
@@ -118,15 +119,15 @@
   },
   "active": "3b9f19bfac1842ad",
   "lastOpenFiles": [
-    "2 - Blog Posts/202107011223-useref-mutable-values-usecase.md",
-    "2 - Blog Posts/202106071524 - Case insensitive tags in Gatsby/index.md",
-    "2 - Blog Posts/202107261741-Customizing vscode token colors.md",
-    "2 - Blog Posts/202106290520-syncing-gatsby-with-obsidian.md",
-    "1 - Permanent Notes/Gatsby MOC.md",
-    "0 - Source Notes/202106051701 - flash of unstyled content gatsby.md",
-    "0 - Source Notes/202106051423 - Gatsby Emotion JSX Pragma.md",
-    "0 - Source Notes/202105301336 - Starting Gtasby Dev Server.md",
-    "0 - Source Notes/waitForElementToBeRemoved.md",
-    "0 - Source Notes/Error-message-assertions-best-practice.md"
+    "2 - Blog Posts/using-stories-as-components.md",
+    "0 - Source Notes/202109182011-render-props.md",
+    "1 - Permanent Notes/Javascript Mental Models.md",
+    "0 - Source Notes/Passing-additional-props-to-a-React-element-passed-in-as-a-prop.md",
+    "0 - Source Notes/202109061436-compound-components.md",
+    "0 - Source Notes/202107021921-prop-style-css-override.md",
+    "Templates/YAML template.md",
+    "Templates/note template.md",
+    "2 - Blog Posts/202106282334-headlessui-render-props-in-twin.md",
+    "0 - Source Notes/202109191200-render-method.md"
   ]
 }

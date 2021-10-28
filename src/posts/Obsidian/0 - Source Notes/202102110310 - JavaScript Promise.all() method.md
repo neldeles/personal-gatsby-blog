@@ -32,5 +32,5 @@ Footer
 Source:
 Keywords: #javascript 
 Related:
-- [[202102100642 - JavaScript async and await]]
+- [[async-and-await-in-javascript]]
 - [[Testing Node applications - 1 - Backend]]

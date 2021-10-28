@@ -1,12 +1,13 @@
 ---
 date: '2021-10-22T13:10:00'
-tags: []
-title: 
+tags: react
+title:
 published: true
 description:
 aliases:
 references:
 zet_id: 20211022T131000
+date_modified: 2021-10-24T21:12:05
 ---
 
 # Authenticated HTTP Requests
@@ -18,6 +19,7 @@ And when the app loads in the first place, you'll call your auth provider's API 
 # Footer
 
 ---
+
 ## Related
 
 - [Setting up AuthContext](Setting%20up%20AuthContext.md)

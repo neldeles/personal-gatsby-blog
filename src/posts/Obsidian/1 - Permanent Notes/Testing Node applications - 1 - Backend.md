@@ -109,7 +109,7 @@ afterAll(() => {
   mongoose.connection.close()
 })
 ```
-- more info on [[202102100642 - JavaScript async and await]]
+- more info on [[async-and-await-in-javascript]]
 	- we use async/await for our API tests because ==making a request to the API is an *asynchronous* operation==
 ### Edit logger middleware
 If you're using any middleware loggers, make sure to exclude them in test environment because they will obstruct the test execution output:
@@ -488,6 +488,6 @@ Source:
 Keywords: #programming #testing #javascript #jest 
 Related:
 - [[Node MOC]]
-- [[202102100642 - JavaScript async and await]]
+- [[async-and-await-in-javascript]]
 - [[Testing Node applications - 0 - Introduction]]
 - [[202102090433 - Jest Test Scenarios]]

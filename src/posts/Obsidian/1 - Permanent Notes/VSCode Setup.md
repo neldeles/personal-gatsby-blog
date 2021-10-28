@@ -1,4 +1,5 @@
 # VSCode Setup
+
 **VSCode Config**
 - set keyboard shortcut to run in Python Interactive Window as ctrl+alt+p 
 - set keyboard shortcut to run up to current line in Python Interactive Window as `ctrl+alt+l`
@@ -56,9 +57,20 @@ install black in data env (https://medium.com/@marcobelo/setting-up-python-black
 	- installed Turbolog
 	  - allows to quickly create console log messages and can delete all or uncomment all with one click
 ## Extensions
-#### Markdown Preview Github Styling
+
+### Markdown Preview Github Styling
 - installed this so Markdown previews look exactly like Github's
   - allows you to preview how your readme will look like
+
+### close tabs to the left
+
+- installed this to allow closing tabs to the left when you right click a tab
+
+### Highlight
+
+- removed this since I'm using the app imdone anyway
+	- if I edit from imdone the weird formatting broke the highlights of this extension
+		- ocd in me couldn't take it so I just uninstall this
 
 ## Font
 - Fira Code 

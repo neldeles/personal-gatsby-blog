@@ -11,7 +11,7 @@ zet_id: 20211022T124718
 
 # Setting up AuthContext
 
-First need to make sure you have separated your app into `Authenticated` and `Unauthenticated` as described [here](Authenticated%20HTTP%20Requests.md).
+First need to make sure you have separated your app into `Authenticated` and `Unauthenticated` as described [here](Authenticated-HTTP-Requests.md).
 
 
 
@@ -21,7 +21,7 @@ First need to make sure you have separated your app into `Authenticated` and `Un
 ---
 ## Related
 
-- [[Authenticated HTTP Requests]]
+- [[Authenticated-HTTP-Requests]]
 
 ---
 
