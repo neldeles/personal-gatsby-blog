@@ -68,6 +68,20 @@ references:
 
 
 
+# Autojump
+
+| Shortcut   | Description                                     | Notes                            |
+| ---------- | ----------------------------------------------- | -------------------------------- |
+| j foo      | Jump to directory that contains foo             |                                  |
+| jc bar     | Jump to child directory                         |                                  |
+| jo music   | Open file manager to directory                  |                                  |
+| jco images | Open file manager to child directory            |                                  |
+| j w in     | Pass multiple arguments to increase specificity | Jumps to `/home/user/work/inbox` |
+
+
+
+
+
 # Footer
 
 ---

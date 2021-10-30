@@ -7,7 +7,7 @@ description: Adding a description to a Storybook Story in either CSF or MDX.
 aliases:
 references:
 zet_id: 20211030T100512
-date_modified: 2021-10-30T10:23:10
+date_modified: 2021-10-30T14:45:25
 ---
 
 # Adding a description to a Story
@@ -44,7 +44,7 @@ Default.parameters = {
 
 Just write normally using Markdown.
 
-```mdx
+```
 ### SomeComponent
 
 Some manually typed documentation text.
