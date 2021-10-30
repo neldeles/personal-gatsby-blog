@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/using-stories-as-components.md",
+            "file": "2 - Blog Posts/Story-description.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "remix",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/using-stories-as-components.md",
+                "file": "2 - Blog Posts/Story-description.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/using-stories-as-components.md"
+                "file": "2 - Blog Posts/Story-description.md"
               }
             }
           },
@@ -119,15 +119,15 @@
   },
   "active": "3b9f19bfac1842ad",
   "lastOpenFiles": [
-    "2 - Blog Posts/using-stories-as-components.md",
-    "0 - Source Notes/202109182011-render-props.md",
-    "1 - Permanent Notes/Javascript Mental Models.md",
-    "0 - Source Notes/Passing-additional-props-to-a-React-element-passed-in-as-a-prop.md",
-    "0 - Source Notes/202109061436-compound-components.md",
-    "0 - Source Notes/202107021921-prop-style-css-override.md",
-    "Templates/YAML template.md",
-    "Templates/note template.md",
-    "2 - Blog Posts/202106282334-headlessui-render-props-in-twin.md",
-    "0 - Source Notes/202109191200-render-method.md"
+    "2 - Blog Posts/Story-description.md",
+    "0 - Source Notes/recreate-DocsPage-in-MDX.md",
+    "0 - Source Notes/remove-source-from-canvas-block.md",
+    "0 - Source Notes/cant-resolve-fs-storybook.md",
+    "0 - Source Notes/setting-up-mdx-cra.md",
+    "0 - Source Notes/module-not-found-storybook-errors.md",
+    "1 - Permanent Notes/VSCode Setup.md",
+    "0 - Source Notes/202103010137 - ESlint in React.md",
+    "0 - Source Notes/202102281048 - Requiring a `prop` in a component.md",
+    "2 - Blog Posts/using-stories-as-components.md"
   ]
 }

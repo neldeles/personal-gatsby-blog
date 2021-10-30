@@ -72,6 +72,10 @@ install black in data env (https://medium.com/@marcobelo/setting-up-python-black
 	- if I edit from imdone the weird formatting broke the highlights of this extension
 		- ocd in me couldn't take it so I just uninstall this
 
+### VSCode MDX
+
+- [setting-up-mdx-cra](setting-up-mdx-cra.md)
+
 ## Font
 - Fira Code 
   - `Fira Code, Menlo, Monaco, 'Courier New', monospace`
