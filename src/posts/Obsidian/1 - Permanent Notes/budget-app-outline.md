@@ -6,6 +6,7 @@ published: true
 description:
 aliases:
 references:
+date_modified: 2021-11-01T08:46:27
 ---
 
 # Budget App Outline
@@ -38,6 +39,20 @@ This being my first major project, I am outlining below in more detail the steps
 	- headlessui isn't installed in our Twin setup
 - installed heroicons
 
+## V3
+
+We're doing a complete rewrite and only using TailwindCSS here (without Twin).
+
+- installed CRA
+- installed Storybook
+- installed Tailwind
+	- [Storybook-TailwindCSS-installation](Storybook-TailwindCSS-installation.md)
+	- add the [[classNames-util]]
+- implemented [setting-up-eslint-plugin-tailwindcss-with-cra](setting-up-eslint-plugin-tailwindcss-with-cra.md)
+- setup [tailwindcss-intellisense-plugin-configuration](tailwindcss-intellisense-plugin-configuration.md)
+- installed testing-Iibrary
+- installed Axios
+- installed react-router-dom and [set Router up global level](202110131613-react-router-with-storybook.md)
 
 ## Modal Form component
 
@@ -124,5 +139,5 @@ Goal:
 # Footer
 
 ---
-	
-Related: 
+
+Related:

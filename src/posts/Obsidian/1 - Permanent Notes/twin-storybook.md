@@ -1,18 +1,19 @@
 ---
 date: '2021-10-11T17:28:56'
 tags: ['tailwind', 'storybook', 'twin']
-title: 
+title:
 published: true
 description:
 aliases:
 references:
+date_modified: 2021-11-01T08:45:13
 ---
 
-# Tailwind + Storybook
+# Twin + Storybook
 
-For your UI components to not look wonky, the `Global Styles` of Tailwind needs to be used. 
+For your UI components to not look wonky, the `Global Styles` of Tailwind needs to be used.
 
-I used an [example](https://github.com/ben-rogerson/twin.examples/tree/master/storybook-emotion) from the official Twin docs as a guide. 
+I used an [example](https://github.com/ben-rogerson/twin.examples/tree/master/storybook-emotion) from the official Twin docs as a guide.
 
 The gist is to edit `.storybook/preview.js`:
 ```js
@@ -65,6 +66,7 @@ export const decorators = [
 # Footer
 
 ---
+
 ## Related
 
 ---

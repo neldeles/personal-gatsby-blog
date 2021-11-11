@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2 - Blog Posts/Story-description.md",
-            "mode": "preview"
+            "file": "2 - Blog Posts/handling-axios-errors-in-typescript.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "remix",
+                "query": "error typescript",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Blog Posts/Story-description.md",
+                "file": "2 - Blog Posts/handling-axios-errors-in-typescript.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Blog Posts/Story-description.md"
+                "file": "2 - Blog Posts/handling-axios-errors-in-typescript.md"
               }
             }
           },
@@ -110,24 +110,23 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 305,
-    "collapsed": true
+    "width": 305
   },
   "active": "3b9f19bfac1842ad",
   "lastOpenFiles": [
-    "2 - Blog Posts/Story-description.md",
-    "0 - Source Notes/recreate-DocsPage-in-MDX.md",
-    "0 - Source Notes/remove-source-from-canvas-block.md",
-    "0 - Source Notes/cant-resolve-fs-storybook.md",
-    "0 - Source Notes/setting-up-mdx-cra.md",
-    "0 - Source Notes/module-not-found-storybook-errors.md",
-    "1 - Permanent Notes/VSCode Setup.md",
-    "0 - Source Notes/202103010137 - ESlint in React.md",
-    "0 - Source Notes/202102281048 - Requiring a `prop` in a component.md",
-    "2 - Blog Posts/using-stories-as-components.md"
+    "2 - Blog Posts/handling-axios-errors-in-typescript.md",
+    "2 - Blog Posts/handling-undefined-in-jest-typescript.md",
+    "0 - Source Notes/typescript-types.md",
+    "0 - Source Notes/undefined-mock-response-properties-in-msw.md",
+    "0 - Source Notes/Accessing-headers-and-body-in-MSW.md",
+    "0 - Source Notes/Error-message-assertions-best-practice.md",
+    "0 - Source Notes/inline-components.md",
+    "0 - Source Notes/202109042206-authentication-hook.md",
+    "0 - Source Notes/202110171449-actions-and-prevent-default.md",
+    "1 - Permanent Notes/Javascript Mental Models.md"
   ]
 }

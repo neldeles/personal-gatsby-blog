@@ -29,6 +29,7 @@ references:
 | <kbd>⌃</kbd><kbd>⇧</kbd><kbd>→</kbd> | Expand selection to code block   | Keep pressing to expand outward |
 | <kbd>⌘</kbd><kbd>⇧</kbd><kbd>L</kbd> | Select all occurences            | Select the text first           |
 | <kbd>⌃</kbd><kbd>-</kbd>             | Jump to previous cursor position |                                 |
+| <kbd>⌃</kbd><kbd>space</kbd>         | VSCode Intellisense              |                                 |
 
 ### Turbo Console Log
 
@@ -79,6 +80,13 @@ references:
 | j w in     | Pass multiple arguments to increase specificity | Jumps to `/home/user/work/inbox` |
 
 
+
+# Cubox
+
+| Shortcut                      | Description   | Notes |
+| ----------------------------- | ------------- | ----- |
+| <kbd>hyper</kbd> <kbd>N</kbd> | Save shortcut |       |
+| <kbd>hyper</kbd> <kbd>B</kbd> | Search Cubox  |       |
 
 
 

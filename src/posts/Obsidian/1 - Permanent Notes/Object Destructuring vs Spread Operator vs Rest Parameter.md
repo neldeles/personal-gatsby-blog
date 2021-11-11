@@ -6,11 +6,13 @@ published: true
 description:
 aliases:
 references: ['https://zellwk.com/blog/es6/#destructuring', 'https://dev.to/sarah_chima/destructuring-assignment---arrays-16f', 'https://dev.to/sarah_chima/object-destructuring-in-es6-3fm']
+date_modified: 2021-09-21T17:57:05
 ---
 
 # Object Destructuring vs Spread Operator vs Rest Parameter
 
 ### Object Destructuring
+
 You can destructure arrays or objects:
 ```js
 // destructuring arrays
@@ -48,9 +50,10 @@ function sayMyName ({
 **Finally**, if `firstName` or `lastName` is undefined in the given object, we set it to `Zell` and `Liew` respectively.
 
 ### When to use one over the other
+
 - **Rest**: packing/collapsing values into an array
   - appears in:
-		- destructuring: 
+		- destructuring:
 			```js
 			let [first, second, third, ...others] = scores
 			```
@@ -67,14 +70,15 @@ function sayMyName ({
 		let array1 = ['one', 'two']
 		let array2 = ['three', 'four']
 		let array3 = ['five', 'six']
-		
+
 		let combinedArray = [...array1, ...array2, ...array3]
-		
+
 		console.log(combinedArray) // ['one', 'two', 'three', 'four', 'five', 'six']
 		```
   - or return `state` in Redux in React
 
 # Footer
+
 ---
 Related:
 - [202011300442 - JavaScript Rest Parameter](202011300442%20-%20JavaScript%20Rest%20Parameter.md)
