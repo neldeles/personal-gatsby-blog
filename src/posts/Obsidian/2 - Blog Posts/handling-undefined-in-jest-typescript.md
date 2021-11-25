@@ -1,13 +1,13 @@
 ---
 date: '2021-11-10T08:06:13'
 tags: jest, testing, typescript,
-title:
+title: Handling `undefined` in Jest and Typescript
 published: true
 description:
 aliases:
 references: ['https://youtu.be/-p4RXvG9x-U?t=1632']
 zet_id: 20211110T080613
-date_modified: 2021-11-10T13:57:27
+date_modified: 2021-11-25T14:27:40
 ---
 
 # Handling `undefined` in Jest and Typescript
