@@ -1,8 +1,0 @@
-# Footer
-
----
-## Related
-
----
-
-## References

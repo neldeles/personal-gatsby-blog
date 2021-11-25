@@ -3,6 +3,7 @@ title: "Hugo Day to Day use"
 date: 2019-05-25T22:25:34+08:00
 tags: ["hugo"]
 published: true
+date_modified: 2021-11-25T13:28:17
 ---
 
 Managing the blog is done via Terminal. These are the key commands I've encountered so far.
